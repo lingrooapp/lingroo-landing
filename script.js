@@ -1,5 +1,5 @@
 function goToApp() {
-  window.location.href = "https://lingroo.app/";
+  window.location.href = "https://www.lingroo.de/";
 }
 
 function scrollToSection(id) {
