@@ -7,6 +7,53 @@
   <meta name="description" content="Lingroo ist dein strukturiertes Training für die C1-Deutschprüfung: Wortschatz, Lesen, Hören, Schreiben und Sprachbausteine." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+  <div id="cookieBanner" style="
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:#111827;
+color:#fff;
+padding:16px 20px;
+border-radius:12px;
+max-width:600px;
+width:90%;
+display:none;
+z-index:9999;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+font-size:14px;
+">
+
+  <div style="margin-bottom:10px;">
+    Wir verwenden Cookies, um die Nutzung der Plattform zu analysieren und zu verbessern.
+    Weitere Informationen finden Sie in unserer
+    <a href="datenschutz.html" style="color:#60a5fa;">Datenschutzerklärung</a>.
+  </div>
+
+  <div style="display:flex;gap:10px;justify-content:flex-end;">
+    <button onclick="acceptCookies()" style="
+      background:#2563eb;
+      border:none;
+      color:#fff;
+      padding:8px 14px;
+      border-radius:8px;
+      cursor:pointer;
+    ">
+      Akzeptieren
+    </button>
+
+    <button onclick="declineCookies()" style="
+      background:#374151;
+      border:none;
+      color:#fff;
+      padding:8px 14px;
+      border-radius:8px;
+      cursor:pointer;
+    ">
+      Ablehnen
+    </button>
+  </div>
+</div>
 <body>
   <header class="nav">
     <div class="container nav-inner">
@@ -191,10 +238,10 @@
     </section>
   </main>
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container footer-grid">
 
-    <!-- LOGO + OPIS -->
+    <!-- LOGO -->
     <div>
       <a class="logo footer-logo" href="#top">
         <span class="logo-mark">L</span>
@@ -211,13 +258,13 @@
       <a href="#pricing">Preise</a>
     </div>
 
-    <!-- PRAWO -->
+    <!-- RECHT -->
     <div>
       <h4>Rechtliches</h4>
-      <a href="https://lingroo.de/agb" target="_blank" rel="noopener">AGB</a>
-      <a href="https://lingroo.de/datenschutz" target="_blank" rel="noopener">Datenschutz</a>
-      <a href="https://lingroo.de/widerruf" target="_blank" rel="noopener">Widerruf</a>
-      <a href="https://lingroo.de/impressum" target="_blank" rel="noopener">Impressum</a>
+      <a href="agb.html">AGB</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="widerruf.html">Widerruf</a>
+      <a href="impressum.html">Impressum</a>
     </div>
 
     <!-- KONTAKT -->
@@ -228,7 +275,6 @@
 
   </div>
 
-  <!-- DOL -->
   <div class="container footer-bottom">
     <span>© 2026 Lingroo. Alle Rechte vorbehalten.</span>
     <span>
