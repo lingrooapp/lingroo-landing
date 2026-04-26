@@ -366,22 +366,51 @@
 }
 
 .hero-video-card {
-  background: #fff;
-  border: 1px solid #dbe7ff;
-  border-radius: 28px;
-  padding: 14px;
-  box-shadow: 0 24px 70px rgba(37, 99, 235, 0.14);
-  overflow: hidden;
+  width: min(360px, 100%);
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 42px;
+  background: #0f172a;
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.28);
+  border: 1px solid rgba(255,255,255,0.12);
+  position: relative;
+}
+
+.hero-video-card::before {
+  content: "";
+  display: block;
+  width: 82px;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.28);
+  margin: 0 auto 10px;
 }
 
 .hero-video-card video {
   width: 100%;
+  aspect-ratio: 9 / 19.5;
   display: block;
-  border-radius: 20px;
-  background: #eef4ff;
-  max-height: 520px;
-  object-fit: cover;
-  object-position: top;
+  border-radius: 30px;
+  background: #000;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero-video-caption {
+  color: #e5edff;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+  padding: 12px 6px 4px;
+}
+
+.hero-video-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-video-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 40px 100px rgba(15, 23, 42, 0.35);
 }
 
 @media (max-width: 900px) {
