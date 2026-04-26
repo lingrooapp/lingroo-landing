@@ -12,7 +12,7 @@ function scrollToSection(id) {
   });
 }
 
-function demoAnswer(btn, isCorrect) {
+function demoAnswer(btn, isCorrect, message) {
   const card = btn.closest('.demo-card');
   const feedback = card.querySelector('.demo-feedback');
 
@@ -21,17 +21,14 @@ function demoAnswer(btn, isCorrect) {
     b.classList.remove('demo-good', 'demo-bad');
   });
 
-  if (isCorrect) {
-    btn.classList.add('demo-good');
-    feedback.innerHTML = 'Richtig! +5 XP';
-  } else {
-    btn.classList.add('demo-bad');
-    feedback.innerHTML = 'Nicht ganz. Richtige Antwort: <strong>immer mehr</strong>';
-  }
+  btn.classList.add(isCorrect ? 'demo-good' : 'demo-bad');
+
+  feedback.innerHTML = message || (isCorrect
+    ? 'Richtig! +5 XP'
+    : 'Nicht ganz. Schau dir die richtige Lösung an.');
 
   feedback.style.display = 'block';
 }
-
 // COOKIE BANNER
 function initCookieBanner() {
   const consent = localStorage.getItem('cookie_consent');
