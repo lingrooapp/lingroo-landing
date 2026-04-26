@@ -364,3 +364,29 @@
     font-size: 24px;
   }
 }
+
+.hero-video-card {
+  background: #fff;
+  border: 1px solid #dbe7ff;
+  border-radius: 28px;
+  padding: 14px;
+  box-shadow: 0 24px 70px rgba(37, 99, 235, 0.14);
+  overflow: hidden;
+}
+
+.hero-video-card video {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  background: #eef4ff;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 900px) {
+  .hero-video-card video {
+    max-height: none;
+    object-fit: contain;
+  }
+}
