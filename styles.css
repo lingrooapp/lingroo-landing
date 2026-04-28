@@ -442,3 +442,34 @@
   border-radius: 8px;
   font-size: 12px;
 }
+
+.hero-video-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #0f172a;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.22);
+}
+
+.hero-video-card video {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  display: block;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.hero-video-caption {
+  margin-top: 12px;
+  text-align: center;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .hero-video-card video {
+    min-height: 420px;
+  }
+}
