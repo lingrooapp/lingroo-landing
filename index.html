@@ -3,9 +3,1007 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lingroo – C1 Deutsch bestehen</title>
-  <meta name="description" content="Lingroo ist dein strukturiertes Training für die C1-Deutschprüfung: Wortschatz, Lesen, Hören, Schreiben und Sprachbausteine." />
+
+  <title>Lingroo – C1 Deutsch trainieren</title>
+  <meta name="description" content="Lingroo ist dein strukturiertes Training für Deutschprüfungen auf B2–C1-Niveau: Schreiben mit C1-Upgrade, Wortschatz, Lesen, Hören, Sprachbausteine und Prüfungsmodus." />
+
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    :root {
+      --lr-blue: #2258d8;
+      --lr-blue-dark: #173c96;
+      --lr-soft: #eef4ff;
+      --lr-text: #142033;
+      --lr-muted: #5f6f86;
+      --lr-border: #d9e2ef;
+      --lr-card: #ffffff;
+      --lr-green: #147348;
+      --lr-red: #b42318;
+      --lr-bg: #f5f8fc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--lr-bg);
+      color: var(--lr-text);
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--lr-border);
+    }
+
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav-inner {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--lr-text);
+      font-weight: 900;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: var(--lr-blue);
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .nav-links a,
+    .login-link,
+    .footer a {
+      color: var(--lr-muted);
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .login-link:hover,
+    .footer a:hover {
+      color: var(--lr-blue);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      border: 1px solid var(--lr-border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .lang-switch button {
+      border: 0;
+      background: transparent;
+      padding: 7px 9px;
+      font-size: 12px;
+      cursor: pointer;
+      color: var(--lr-muted);
+    }
+
+    .lang-switch button.active {
+      background: var(--lr-soft);
+      color: var(--lr-blue);
+      font-weight: 800;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 12px;
+      padding: 11px 18px;
+      font-weight: 800;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+      text-decoration: none;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: var(--lr-blue);
+      color: #fff;
+      box-shadow: 0 10px 22px rgba(34, 88, 216, 0.22);
+    }
+
+    .btn-primary:hover {
+      background: var(--lr-blue-dark);
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--lr-text);
+      border: 1px solid var(--lr-border);
+    }
+
+    .btn-large {
+      padding: 15px 22px;
+      font-size: 15px;
+    }
+
+    .hero {
+      padding: 58px 0 34px;
+    }
+
+    .hero-card {
+      background:
+        radial-gradient(circle at top right, rgba(34, 88, 216, 0.13), transparent 32%),
+        linear-gradient(135deg, #ffffff 0%, #f7faff 100%);
+      border: 1px solid var(--lr-border);
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 24px 70px rgba(30, 54, 90, 0.10);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.07fr) minmax(320px, 0.93fr);
+      gap: 38px;
+      align-items: center;
+      padding: 42px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--lr-blue);
+      background: var(--lr-soft);
+      border: 1px solid #d8e6ff;
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--lr-blue);
+    }
+
+    .hero h1 {
+      margin: 0 0 20px;
+      max-width: 700px;
+      font-size: clamp(36px, 5.4vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -0.055em;
+      color: #0f1c2e;
+    }
+
+    .hero h1 span {
+      color: var(--lr-blue);
+    }
+
+    .hero-subline {
+      max-width: 650px;
+      margin: 0;
+      color: var(--lr-muted);
+      line-height: 1.68;
+      font-size: 17px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 26px;
+    }
+
+    .hero-points {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .hero-points div {
+      background: #fff;
+      border: 1px solid var(--lr-border);
+      color: #24364e;
+      border-radius: 999px;
+      padding: 9px 12px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .hero-points span {
+      color: var(--lr-green);
+      margin-right: 5px;
+    }
+
+    .hero-product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hero-phone {
+      width: min(320px, 100%);
+      aspect-ratio: 9 / 16;
+      background: #111827;
+      border-radius: 36px;
+      padding: 12px;
+      position: relative;
+      box-shadow: 0 28px 70px rgba(17, 38, 68, 0.24);
+    }
+
+    .hero-phone-notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 86px;
+      height: 20px;
+      background: #111827;
+      border-radius: 0 0 14px 14px;
+      z-index: 3;
+    }
+
+    .hero-phone video,
+    .hero-phone .video-fallback {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: 26px;
+      overflow: hidden;
+      background: #eef4ff;
+    }
+
+    .video-fallback {
+      padding: 28px 18px;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      color: var(--lr-text);
+      line-height: 1.5;
+    }
+
+    .video-fallback h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .video-fallback p {
+      margin: 0;
+      color: var(--lr-muted);
+      font-size: 14px;
+    }
+
+    .hero-video-caption {
+      font-size: 13px;
+      color: var(--lr-muted);
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--lr-border);
+      background: rgba(255, 255, 255, 0.76);
+    }
+
+    .stat-item {
+      padding: 22px 14px;
+      text-align: center;
+      border-right: 1px solid var(--lr-border);
+    }
+
+    .stat-item:last-child {
+      border-right: 0;
+    }
+
+    .stat-num {
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 950;
+      color: var(--lr-blue);
+      letter-spacing: -0.04em;
+    }
+
+    .stat-label {
+      margin-top: 6px;
+      color: var(--lr-muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .section {
+      padding: 58px 0;
+    }
+
+    .section-soft {
+      background: #eef4ff;
+      border-top: 1px solid var(--lr-border);
+      border-bottom: 1px solid var(--lr-border);
+    }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 28px;
+    }
+
+    .section-head h2,
+    .training-copy h2,
+    .cta-card h2 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 3.5vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -0.035em;
+      color: #102033;
+    }
+
+    .section-head p,
+    .training-copy p,
+    .cta-card p {
+      margin: 0;
+      color: var(--lr-muted);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+
+    .demo-grid,
+    .feature-grid,
+    .audience-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .demo-card,
+    .feature-card,
+    .audience-card,
+    .module-card,
+    .screen-card,
+    .pricing-card,
+    .cta-card {
+      background: #fff;
+      border: 1px solid var(--lr-border);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: 0 14px 40px rgba(30, 54, 90, 0.06);
+    }
+
+    .demo-card span {
+      display: inline-flex;
+      font-size: 12px;
+      color: var(--lr-blue);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-bottom: 10px;
+    }
+
+    .demo-card h3 {
+      margin: 0 0 14px;
+      color: #102033;
+    }
+
+    .demo-card p {
+      color: var(--lr-muted);
+      line-height: 1.55;
+      margin: 0 0 12px;
+    }
+
+    .demo-options {
+      display: grid;
+      gap: 8px;
+    }
+
+    .demo-options button {
+      border: 1px solid var(--lr-border);
+      background: #fff;
+      border-radius: 12px;
+      padding: 11px 12px;
+      text-align: left;
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--lr-text);
+    }
+
+    .demo-options button:hover {
+      border-color: var(--lr-blue);
+      background: var(--lr-soft);
+    }
+
+    .demo-options button.correct {
+      border-color: #a7f3d0;
+      background: #ecfdf5;
+      color: var(--lr-green);
+    }
+
+    .demo-options button.wrong {
+      border-color: #fecaca;
+      background: #fff1f2;
+      color: var(--lr-red);
+    }
+
+    .demo-feedback {
+      margin-top: 10px;
+      min-height: 22px;
+      font-size: 14px;
+      color: var(--lr-muted);
+      font-weight: 700;
+    }
+
+    .upgrade-feature {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(300px, .92fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .upgrade-card-main {
+      background: #fff;
+      border: 1px solid var(--lr-border);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 18px 55px rgba(30, 54, 90, 0.08);
+    }
+
+    .upgrade-badge {
+      display: inline-flex;
+      background: var(--lr-soft);
+      color: var(--lr-blue);
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 11px;
+      font-weight: 950;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .upgrade-card-main h3 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      color: #102033;
+    }
+
+    .upgrade-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1.25fr;
+      gap: 10px;
+      align-items: start;
+      padding: 13px 0;
+      border-bottom: 1px solid #edf2fa;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .upgrade-row:last-child {
+      border-bottom: 0;
+    }
+
+    .bad-text {
+      color: var(--lr-red);
+      text-decoration: line-through;
+      background: #fff1f2;
+      padding: 6px 8px;
+      border-radius: 9px;
+    }
+
+    .good-text {
+      color: var(--lr-green);
+      background: #eaf8ef;
+      padding: 6px 8px;
+      border-radius: 9px;
+      font-weight: 900;
+    }
+
+    .why-text {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+      color: var(--lr-muted);
+    }
+
+    .arrow {
+      color: var(--lr-muted);
+      padding-top: 6px;
+    }
+
+    .upgrade-side {
+      display: grid;
+      gap: 12px;
+    }
+
+    .mini-feature {
+      background: #fff;
+      border: 1px solid var(--lr-border);
+      border-radius: 22px;
+      padding: 20px;
+    }
+
+    .mini-feature h3 {
+      margin: 0 0 8px;
+      color: #102033;
+    }
+
+    .mini-feature p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--lr-muted);
+      font-size: 14px;
+    }
+
+    .feature-card .icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 15px;
+      background: var(--lr-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      font-size: 22px;
+    }
+
+    .feature-card h3,
+    .audience-card h3,
+    .module-card h3,
+    .screen-card h3 {
+      margin: 0 0 8px;
+      color: #102033;
+    }
+
+    .feature-card p,
+    .audience-card p,
+    .module-card p {
+      margin: 0;
+      color: var(--lr-muted);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .training-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 24px;
+      align-items: center;
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .module-visual {
+      width: 52px;
+      height: 52px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 14px;
+      background: var(--lr-soft);
+    }
+
+    .module-card button {
+      margin-top: 14px;
+      border: 0;
+      background: transparent;
+      color: var(--lr-blue);
+      font-weight: 900;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    .screens-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1.35fr;
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .screen-card {
+      overflow: hidden;
+    }
+
+    .screen-card img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 16px;
+      border: 1px solid var(--lr-border);
+      background: #f8fbff;
+      display: block;
+      margin-bottom: 14px;
+    }
+
+    .screen-desktop img {
+      height: 330px;
+    }
+
+    .b2-note {
+      margin: 22px 0 0;
+      color: var(--lr-muted);
+      font-weight: 700;
+      background: #fff;
+      border: 1px solid var(--lr-border);
+      padding: 13px 16px;
+      border-radius: 16px;
+      display: inline-flex;
+    }
+
+    .pricing-card {
+      display: grid;
+      grid-template-columns: 1.05fr .9fr .9fr;
+      gap: 22px;
+      align-items: center;
+    }
+
+    .pricing-left ul {
+      padding-left: 0;
+      margin: 12px 0 0;
+      list-style: none;
+      display: grid;
+      gap: 9px;
+    }
+
+    .pricing-left li {
+      color: var(--lr-text);
+      font-weight: 700;
+    }
+
+    .pricing-left li::before {
+      content: "✓";
+      color: var(--lr-green);
+      font-weight: 950;
+      margin-right: 8px;
+    }
+
+    .price {
+      font-size: 46px;
+      line-height: 1;
+      font-weight: 950;
+      letter-spacing: -0.05em;
+      color: #102033;
+    }
+
+    .price-note {
+      color: var(--lr-muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .pricing-right {
+      background: #f8fbff;
+      border: 1px solid var(--lr-border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .pricing-right h4 {
+      margin: 0 0 8px;
+    }
+
+    .pricing-right p {
+      color: var(--lr-muted);
+      line-height: 1.55;
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+
+    .cta-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      background:
+        radial-gradient(circle at top right, rgba(34, 88, 216, 0.16), transparent 30%),
+        #ffffff;
+    }
+
+    .footer {
+      background: #fff;
+      border-top: 1px solid var(--lr-border);
+      padding: 44px 0 24px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .7fr .7fr .8fr;
+      gap: 24px;
+    }
+
+    .footer h4 {
+      margin: 0 0 10px;
+      color: #102033;
+    }
+
+    .footer p {
+      color: var(--lr-muted);
+      line-height: 1.55;
+      margin: 10px 0 0;
+      font-size: 14px;
+    }
+
+    .footer a {
+      display: block;
+      margin: 7px 0;
+      font-size: 14px;
+    }
+
+    .footer-bottom {
+      margin-top: 30px;
+      padding-top: 18px;
+      border-top: 1px solid var(--lr-border);
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      color: var(--lr-muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .social-links a {
+      background: var(--lr-soft);
+      color: var(--lr-blue);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    #cookieBanner {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #111827;
+      color: #fff;
+      padding: 16px 20px;
+      border-radius: 16px;
+      max-width: 680px;
+      width: 92%;
+      display: none;
+      z-index: 9999;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    #cookieBanner a {
+      color: #93c5fd;
+    }
+
+    .cookie-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .cookie-actions button {
+      border: none;
+      color: #fff;
+      padding: 9px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .cookie-accept {
+      background: #2563eb;
+    }
+
+    .cookie-decline {
+      background: #374151;
+    }
+
+    @media (max-width: 980px) {
+      .nav-links,
+      .lang-switch {
+        display: none;
+      }
+
+      .hero-grid,
+      .upgrade-feature,
+      .training-grid,
+      .pricing-card {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        padding: 30px 22px;
+      }
+
+      .hero-phone {
+        width: min(280px, 82vw);
+      }
+
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stat-item:nth-child(2) {
+        border-right: 0;
+      }
+
+      .stat-item:nth-child(1),
+      .stat-item:nth-child(2) {
+        border-bottom: 1px solid var(--lr-border);
+      }
+
+      .demo-grid,
+      .feature-grid,
+      .audience-grid,
+      .screens-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .screens-grid img,
+      .screen-desktop img {
+        height: auto;
+        max-height: 520px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .container {
+        width: min(100% - 22px, 1120px);
+      }
+
+      .nav-inner {
+        min-height: 64px;
+      }
+
+      .nav-actions .login-link {
+        display: none;
+      }
+
+      .nav-actions .btn {
+        padding: 10px 12px;
+        font-size: 12px;
+      }
+
+      .hero {
+        padding: 24px 0 26px;
+      }
+
+      .hero h1 {
+        font-size: 35px;
+      }
+
+      .hero-subline {
+        font-size: 15px;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .hero-points div {
+        width: 100%;
+      }
+
+      .stats-bar {
+        grid-template-columns: 1fr;
+      }
+
+      .stat-item {
+        border-right: 0;
+        border-bottom: 1px solid var(--lr-border);
+      }
+
+      .stat-item:last-child {
+        border-bottom: 0;
+      }
+
+      .section {
+        padding: 42px 0;
+      }
+
+      .module-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .upgrade-row {
+        grid-template-columns: 1fr;
+      }
+
+      .arrow {
+        display: none;
+      }
+
+      .cta-card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .cta-card .btn {
+        width: 100%;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -31,140 +1029,238 @@
         </div>
 
         <a class="login-link" href="https://www.lingroo.de/#training">Anmelden</a>
-        <button class="btn btn-primary" type="button" onclick="goToApp()">Jetzt 1 Aufgabe testen</button>
+        <button class="btn btn-primary" type="button" onclick="goToApp()">Jetzt testen</button>
       </div>
     </div>
   </header>
 
   <main id="top">
-<section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <div class="eyebrow">C1 Deutsch · KI-gestütztes Schreibtraining</div>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">C1 Deutsch · KI-gestütztes Schreibtraining</div>
 
-      <h1>Verbessere deine C1-Texte mit echter Bewertung und KI-Upgrade.</h1>
+              <h1>
+                C1 Deutsch trainieren —
+                <span>strukturiert, prüfungsnah, messbar.</span>
+              </h1>
 
-      <p class="hero-subline">
-        Schreibe einen Text, erhalte eine prüfungsnahe Bewertung und sieh sofort,
-        wie dein Text auf C1-Niveau verbessert wird.
-      </p>
+              <p class="hero-subline">
+                Trainiere Schreiben mit prüfungsnaher Bewertung, verbessere deine Texte
+                mit einem sprachlichen C1-Upgrade und baue Wortschatz, Lesen, Hören und
+                Sprachbausteine systematisch auf.
+              </p>
 
-      <div class="hero-actions">
-        <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">
-          7 Tage kostenlos testen
-        </button>
-        <button class="btn btn-secondary btn-large" type="button" onclick="scrollToSection('demo')">
-          Demo ansehen
-        </button>
+              <div class="hero-actions">
+                <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">
+                  7 Tage kostenlos testen
+                </button>
+
+                <button class="btn btn-secondary btn-large" type="button" onclick="scrollToSection('demo')">
+                  Demo ansehen
+                </button>
+              </div>
+
+              <div class="hero-points">
+                <div><span>✓</span> Prüfungsnahe Bewertung</div>
+                <div><span>✓</span> C1-Upgrade für eigene Texte</div>
+                <div><span>✓</span> SRS, XP und Fortschritt</div>
+              </div>
+            </div>
+
+            <div class="hero-product">
+              <div class="hero-phone">
+                <div class="hero-phone-notch"></div>
+
+                <video autoplay muted loop playsinline preload="metadata" onerror="this.style.display='none'; document.getElementById('videoFallback').style.display='flex';">
+                  <source src="demo.mp4" type="video/mp4">
+                </video>
+
+                <div id="videoFallback" class="video-fallback">
+                  <h3>Schreiben mit C1-Upgrade</h3>
+                  <p>
+                    Bewertung, Coach-Hinweis und konkrete Verbesserungen für deine Prüfungsantwort.
+                  </p>
+                </div>
+              </div>
+
+              <div class="hero-video-caption">
+                1 Text → Bewertung → C1-Upgrade sehen
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-bar">
+            <div class="stat-item">
+              <div class="stat-num">700</div>
+              <div class="stat-label">C1-Wörter im SRS</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-num">75+</div>
+              <div class="stat-label">Übungen</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-num">3</div>
+              <div class="stat-label">Prüfungspakete</div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-num">6,99 €</div>
+              <div class="stat-label">monatlich kündbar</div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="hero-points">
-        <div><span>✓</span> telc-nahe Bewertung</div>
-        <div><span>✓</span> C1-Upgrade mit KI</div>
-        <div><span>✓</span> Sofort sichtbare Verbesserungen</div>
-      </div>
-    </div>
-
-    <div class="hero-product">
-      <div class="hero-phone">
-        <div class="hero-phone-notch"></div>
-
-        <video autoplay muted loop playsinline preload="metadata">
-          <source src="demo.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <div class="hero-video-caption">
-        1 Aufgabe → sofort Feedback → C1-Upgrade sehen
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <section id="demo" class="section">
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Mini-Demo</div>
           <h2>Teste Lingroo direkt</h2>
+          <p>
+            Löse eine kurze Aufgabe und sieh sofort, wie Feedback in Lingroo funktioniert.
+          </p>
         </div>
 
         <div class="demo-grid">
           <article class="demo-card">
             <span>Wortschatz</span>
             <h3>Was bedeutet „zunehmend“?</h3>
+
             <div class="demo-options">
               <button type="button" onclick="demoAnswer(this, true, 'Richtig! +5 XP')">immer mehr</button>
               <button type="button" onclick="demoAnswer(this, false, 'Nicht ganz. Richtige Antwort: <strong>immer mehr</strong>')">weniger</button>
             </div>
+
             <div class="demo-feedback"></div>
           </article>
 
           <article class="demo-card">
             <span>Sprachbausteine</span>
-            <h3>Er hat das Buch ___ gelesen.</h3>
+            <h3>Das führt ___ Problemen.</h3>
+
             <div class="demo-options">
-              <button type="button" onclick="demoAnswer(this, true, 'Richtig! +5 XP')">schon</button>
-              <button type="button" onclick="demoAnswer(this, false, 'Nicht ganz. Richtige Antwort: <strong>schon</strong>')">noch</button>
+              <button type="button" onclick="demoAnswer(this, true, 'Richtig! führen zu + Dativ')">zu</button>
+              <button type="button" onclick="demoAnswer(this, false, 'Nicht ganz. Richtige Antwort: <strong>zu</strong>')">auf</button>
             </div>
+
             <div class="demo-feedback"></div>
           </article>
 
           <article class="demo-card">
             <span>Lesen</span>
-            <p>Viele Berufe verändern sich durch neue Technologien und neue Arbeitsprozesse.</p>
+            <p>
+              Viele Berufe verändern sich durch neue Technologien und neue Arbeitsprozesse.
+            </p>
+
             <h3>Was ist die Hauptaussage?</h3>
+
             <div class="demo-options">
               <button type="button" onclick="demoAnswer(this, true, 'Richtig! +5 XP')">Arbeitsprofile verändern sich.</button>
               <button type="button" onclick="demoAnswer(this, false, 'Nicht ganz. Achte auf die Hauptaussage des Textes.')">Menschen lernen zu schnell.</button>
             </div>
+
             <div class="demo-feedback"></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="features" class="section">
+    <section id="features" class="section section-soft">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow">Warum Lingroo?</div>
-          <h2>Dein Vorteil im C1-Training</h2>
+          <div class="eyebrow">Der größte Hebel</div>
+          <h2>Dein eigener Text wird zum Training</h2>
+          <p>
+            Lingroo zeigt dir nicht nur, ob dein Text funktioniert, sondern welche
+            Formulierungen prüfungsnäher wirken — ohne deinen Text komplett neu zu schreiben.
+          </p>
         </div>
 
-        <div class="feature-grid">
-          <article class="feature-card">
-            <div class="icon">📖</div>
-            <h3>Prüfungsnah</h3>
-            <p>Trainiere mit Aufgaben, die sich an echten C1-Prüfungsformaten orientieren.</p>
+        <div class="upgrade-feature">
+          <article class="upgrade-card-main">
+            <div class="upgrade-badge">Writing Premium</div>
+
+            <h3>C1-Upgrade mit kontrollierten Verbesserungen</h3>
+
+            <div class="upgrade-row">
+              <span class="bad-text">Das liegt vor allem daran, dass</span>
+              <span class="arrow">→</span>
+              <div>
+                <span class="good-text">Dies ist in erster Linie darauf zurückzuführen, dass</span>
+                <span class="why-text">Gehobene Formulierung mit komplexerer Syntax</span>
+              </div>
+            </div>
+
+            <div class="upgrade-row">
+              <span class="bad-text">viele Probleme gezeigt haben</span>
+              <span class="arrow">→</span>
+              <div>
+                <span class="good-text">erhebliche Schwachstellen offenbart haben</span>
+                <span class="why-text">Differenzierterer Wortschatz für C1</span>
+              </div>
+            </div>
+
+            <div class="upgrade-row">
+              <span class="bad-text">Ich finde, der Staat muss etwas machen.</span>
+              <span class="arrow">→</span>
+              <div>
+                <span class="good-text">Meiner Ansicht nach sollte der Staat gezielte Maßnahmen ergreifen.</span>
+                <span class="why-text">Prüfungsnäherer Ausdruck und klarere Position</span>
+              </div>
+            </div>
           </article>
 
-          <article class="feature-card">
-            <div class="icon">⚡</div>
-            <h3>Sofortiges Feedback</h3>
-            <p>Erhalte verständliche Erklärungen, damit Fehler zu Fortschritt werden.</p>
-          </article>
+          <div class="upgrade-side">
+            <article class="mini-feature">
+              <h3>SRS-Wortschatz mit XP</h3>
+              <p>
+                Wiederhole C1-Wortschatz nach System: neue Wörter, schwierige Wörter
+                und fällige Wiederholungen.
+              </p>
+            </article>
 
-          <article class="feature-card">
-            <div class="icon">🎯</div>
-            <h3>Strukturierter Lernplan</h3>
-            <p>Konzentriere dich auf Schwächen und trainiere jeden Tag mit klarem Fokus.</p>
-          </article>
+            <article class="mini-feature">
+              <h3>Prüfungsmodus</h3>
+              <p>
+                Trainiere Lesen, Hören, Sprachbausteine und Schreiben in strukturierten
+                Prüfungspaketen.
+              </p>
+            </article>
 
-          <article class="feature-card">
-            <div class="icon">⏱️</div>
-            <h3>Flexibel lernen</h3>
-            <p>Kurze Einheiten für Alltag, Beruf und Smartphone – ohne Lernchaos.</p>
-          </article>
+            <article class="mini-feature">
+              <h3>Fortschritt sichtbar machen</h3>
+              <p>
+                Dashboard, XP, Tagesziel und Prüfungsreife zeigen dir, woran du als Nächstes
+                arbeiten solltest.
+              </p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="training" class="section section-soft">
+    <section id="training" class="section">
       <div class="container training-grid">
         <div class="training-copy">
           <div class="eyebrow">Realistisch. Effektiv. Zielgerichtet.</div>
+
           <h2>Alle Prüfungsbereiche in einer Plattform</h2>
-          <p>Übe Lesen, Hören, Schreiben und Sprachbausteine mit Aufgaben, die dich optimal auf die Prüfung vorbereiten.</p>
-          <button class="btn btn-primary" type="button" onclick="goToApp()">Training entdecken</button>
+
+          <p>
+            Übe Lesen, Hören, Schreiben, Sprachbausteine und Wortschatz mit Aufgaben,
+            die dich strukturiert auf Deutschprüfungen vorbereiten.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" onclick="goToApp()">Training entdecken</button>
+            <button class="btn btn-secondary" type="button" onclick="scrollToSection('screens')">Screens ansehen</button>
+          </div>
         </div>
 
         <div class="module-grid">
@@ -183,69 +1279,82 @@
           </article>
 
           <article class="module-card">
-            <div class="module-visual green">✏️</div>
+            <div class="module-visual green">✍️</div>
             <h3>Schreiben</h3>
-            <p>Texte verfassen und Feedback nutzen.</p>
+            <p>Texte verfassen, bewerten und verbessern.</p>
             <button onclick="goToApp()">Übungen starten →</button>
           </article>
 
           <article class="module-card">
-            <div class="module-visual purple">🧩</div>
+            <div class="module-visual purple">🎯</div>
             <h3>Sprachbausteine</h3>
-            <p>Grammatik und Wortschatz gezielt verbessern.</p>
+            <p>Grammatik, Rektionen und C1-Strukturen.</p>
             <button onclick="goToApp()">Übungen starten →</button>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="screens" class="section">
+    <section id="screens" class="section section-soft">
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Echter Blick in Lingroo</div>
           <h2>So sieht dein Training wirklich aus</h2>
+          <p>
+            Keine PDF-Sammlung, sondern eine App mit Feedback, Fortschritt und klarer Struktur.
+          </p>
         </div>
 
-       <div class="screens-grid">
-  <div class="screen-card screen-mobile">
-    <img src="sprachbausteine.png" alt="Sprachbausteine mit Feedback">
-    <h3>Sprachbausteine mit sofortigem Feedback</h3>
-  </div>
+        <div class="screens-grid">
+          <div class="screen-card screen-mobile">
+            <img src="sprachbausteine.png" alt="Sprachbausteine mit Feedback">
+            <h3>Sprachbausteine mit sofortigem Feedback</h3>
+          </div>
 
-  <div class="screen-card screen-mobile">
-    <img src="wortschatz.png" alt="Wortschatz mit XP Feedback">
-    <h3>Wortschatz mit XP und Fortschritt</h3>
-  </div>
+          <div class="screen-card screen-mobile">
+            <img src="wortschatz.png" alt="Wortschatz mit XP Feedback">
+            <h3>Wortschatz mit XP und Fortschritt</h3>
+          </div>
 
-  <div class="screen-card screen-desktop">
-    <img src="schreiben.PNG" alt="Schreiben mit Bewertung">
-    <h3>Schreiben mit klarer Bewertung</h3>
-  </div>
-</div>
+          <div class="screen-card screen-desktop">
+            <img src="schreiben.PNG" alt="Schreiben mit Bewertung">
+            <h3>Schreiben mit klarer Bewertung</h3>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="section section-soft">
+    <section id="about" class="section">
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Für wen ist Lingroo?</div>
           <h2>Gebaut für Lernende mit klarem Ziel</h2>
+          <p>
+            Lingroo richtet sich an Lernende, die strukturiert auf fortgeschrittene
+            Deutschprüfungen hinarbeiten und ihren Fortschritt sichtbar machen wollen.
+          </p>
         </div>
 
         <div class="audience-grid">
           <article class="audience-card">
             <h3>Für Berufstätige</h3>
-            <p>Kurze Einheiten, klarer Fokus und sichtbarer Fortschritt – auch bei wenig Zeit.</p>
+            <p>
+              Kurze Einheiten, klarer Fokus und sichtbarer Fortschritt – auch bei wenig Zeit.
+            </p>
           </article>
 
           <article class="audience-card">
-            <h3>Für telc/Goethe-Kandidaten</h3>
-            <p>Prüfungsnahe Aufgaben statt allgemeiner Sprachübungen ohne Struktur.</p>
+            <h3>Für Prüfungskandidaten</h3>
+            <p>
+              Prüfungsnahe Aufgaben statt allgemeiner Sprachübungen ohne klare Struktur.
+            </p>
           </article>
 
           <article class="audience-card">
             <h3>Für Selbstlerner</h3>
-            <p>Ein Plan statt Chaos aus PDFs, YouTube, Notizen und zufälligen Apps.</p>
+            <p>
+              Ein Plan statt Chaos aus PDFs, YouTube, Notizen und zufälligen Apps.
+            </p>
           </article>
         </div>
 
@@ -255,37 +1364,55 @@
       </div>
     </section>
 
-    <section id="pricing" class="section">
+    <section id="pricing" class="section section-soft">
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Fair. Transparent. Flexibel.</div>
           <h2>Ein Preis, voller Zugriff</h2>
+          <p>
+            Prüfungsmodus, Writing-Upgrade, SRS-Wortschatz, Hören, Lesen und Sprachbausteine
+            in einer Plattform.
+          </p>
         </div>
 
         <div class="pricing-card">
           <div class="pricing-left">
             <h3>Lingroo Premium</h3>
+
             <ul>
               <li>Alle Übungen und Trainingsbereiche</li>
-              <li>Schreiben mit Bewertung</li>
-              <li>Unbegrenztes Hörtraining</li>
-              <li>Fortschritts-Tracking & Analyse</li>
+              <li>Schreiben mit prüfungsnaher Bewertung</li>
+              <li>Sprachliches C1-Upgrade für eigene Texte</li>
+              <li>Hörtraining, Lesen und Sprachbausteine</li>
+              <li>Fortschritts-Tracking, XP und SRS</li>
               <li>Monatlich kündbar</li>
             </ul>
           </div>
 
           <div class="pricing-middle">
             <div class="price">6,99 €</div>
-            <p class="price-note">7 Tage kostenlos · danach 6,99 € / Monat · jederzeit kündbar</p>
-            <p class="price-note">weniger als 0,25 € pro Tag</p>
+
+            <p class="price-note">
+              7 Tage kostenlos · danach 6,99 € / Monat · jederzeit kündbar
+            </p>
+
+            <p class="price-note">
+              Weniger als 0,25 € pro Tag
+            </p>
+
             <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">
               7 Tage kostenlos testen
             </button>
           </div>
 
           <div class="pricing-right">
-            <h4>🛡️ Sicher & zuverlässig</h4>
-            <p>Deine Daten bleiben geschützt. Zahlungen laufen über Stripe – zuverlässig und verschlüsselt.</p>
+            <h4>🛡️ Sicher & transparent</h4>
+
+            <p>
+              Deine Daten bleiben geschützt. Zahlungen laufen über Stripe.
+              Der Zugriff beginnt nach erfolgreicher Zahlung.
+            </p>
+
             <strong>Powered by Stripe</strong>
           </div>
         </div>
@@ -296,9 +1423,14 @@
       <div class="container cta-card">
         <div>
           <h2>Starte heute mit strukturiertem C1-Training</h2>
-          <p>Erstelle kostenlos ein Konto und trainiere mit deinem persönlichen Fortschritt.</p>
+          <p>
+            Erstelle kostenlos ein Konto und trainiere mit deinem persönlichen Fortschritt.
+          </p>
         </div>
-        <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">Kostenlos starten</button>
+
+        <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">
+          Kostenlos starten
+        </button>
       </div>
     </section>
   </main>
@@ -310,7 +1442,10 @@
           <span class="logo-mark">L</span>
           <span>Lingroo</span>
         </a>
-        <p>Dein strukturiertes Training für die C1 Deutschprüfung.</p>
+
+        <p>
+          Dein strukturiertes Training für Deutschprüfungen auf B2–C1-Niveau.
+        </p>
       </div>
 
       <div>
@@ -323,10 +1458,10 @@
 
       <div>
         <h4>Rechtliches</h4>
-        <a href="agb.html">AGB</a>
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="widerruf.html">Widerruf</a>
-        <a href="impressum.html">Impressum</a>
+        <a href="/agb">AGB</a>
+        <a href="/datenschutz">Datenschutz</a>
+        <a href="/widerruf">Widerruf</a>
+        <a href="/impressum">Impressum</a>
       </div>
 
       <div>
@@ -334,65 +1469,96 @@
         <a href="mailto:hello@lingroo.de">hello@lingroo.de</a>
 
         <div class="social-links">
-  <a href="https://www.tiktok.com/@lingroo.app" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
-  <a href="https://www.reddit.com/user/lingrooapp" target="_blank" rel="noopener noreferrer" aria-label="Reddit">Reddit</a>
-  <a href="https://www.youtube.com/@lingroo-app" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
-</div>
+          <a href="https://www.tiktok.com/@lingroo.app" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
+          <a href="https://www.reddit.com/user/lingrooapp" target="_blank" rel="noopener noreferrer" aria-label="Reddit">Reddit</a>
+          <a href="https://www.youtube.com/@lingroo-app" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
+        </div>
       </div>
     </div>
 
     <div class="container footer-bottom">
       <span>© 2026 Lingroo. Alle Rechte vorbehalten.</span>
-      <span>Lingroo ist ein unabhängiges Lernprodukt und steht in keiner Verbindung zu offiziellen Prüfungsanbietern.</span>
+      <span>
+        Lingroo ist ein unabhängiges Lernprodukt zur Vorbereitung auf Deutschprüfungen
+        und steht in keiner Verbindung zu telc, dem Goethe-Institut oder dem TestDaF-Institut.
+        Die genannten Prüfungsnamen dienen ausschließlich der Orientierung.
+      </span>
     </div>
   </footer>
 
-  <div id="cookieBanner" style="
-    position:fixed;
-    bottom:20px;
-    left:50%;
-    transform:translateX(-50%);
-    background:#111827;
-    color:#fff;
-    padding:16px 20px;
-    border-radius:12px;
-    max-width:600px;
-    width:90%;
-    display:none;
-    z-index:9999;
-    box-shadow:0 10px 30px rgba(0,0,0,0.2);
-    font-size:14px;
-  ">
-    <div style="margin-bottom:10px;">
-      Wir verwenden Cookies, um die Nutzung der Plattform zu analysieren und zu verbessern.
-      Weitere Informationen finden Sie in unserer
-      <a href="datenschutz.html" style="color:#60a5fa;">Datenschutzerklärung</a>.
+  <div id="cookieBanner">
+    <div>
+      Diese Website verwendet technisch notwendige Cookies und lokale Speicherung für Login,
+      Einstellungen und Lernfortschritt. Weitere Informationen finden Sie in unserer
+      <a href="/datenschutz">Datenschutzerklärung</a>.
     </div>
 
-    <div style="display:flex;gap:10px;justify-content:flex-end;">
-      <button onclick="acceptCookies()" style="
-        background:#2563eb;
-        border:none;
-        color:#fff;
-        padding:8px 14px;
-        border-radius:8px;
-        cursor:pointer;
-      ">
-        Akzeptieren
-      </button>
-
-      <button onclick="declineCookies()" style="
-        background:#374151;
-        border:none;
-        color:#fff;
-        padding:8px 14px;
-        cursor:pointer;
-        border-radius:8px;
-      ">
-        Ablehnen
-      </button>
+    <div class="cookie-actions">
+      <button class="cookie-accept" onclick="acceptCookies()">Verstanden</button>
+      <button class="cookie-decline" onclick="declineCookies()">Ablehnen</button>
     </div>
   </div>
+
+  <script>
+    function goToApp() {
+      window.location.href = "https://www.lingroo.de/#training";
+    }
+
+    function scrollToSection(id) {
+      var el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function demoAnswer(button, isCorrect, message) {
+      var card = button.closest(".demo-card");
+      if (!card) return;
+
+      var buttons = card.querySelectorAll(".demo-options button");
+      buttons.forEach(function (btn) {
+        btn.classList.remove("correct", "wrong");
+        btn.disabled = true;
+      });
+
+      button.classList.add(isCorrect ? "correct" : "wrong");
+
+      var feedback = card.querySelector(".demo-feedback");
+      if (feedback) {
+        feedback.innerHTML = message;
+        feedback.style.color = isCorrect ? "#147348" : "#b42318";
+      }
+    }
+
+    function acceptCookies() {
+      try {
+        localStorage.setItem("lingroo_cookie_choice", "accepted");
+      } catch (e) {}
+      var banner = document.getElementById("cookieBanner");
+      if (banner) banner.style.display = "none";
+    }
+
+    function declineCookies() {
+      try {
+        localStorage.setItem("lingroo_cookie_choice", "declined");
+      } catch (e) {}
+      var banner = document.getElementById("cookieBanner");
+      if (banner) banner.style.display = "none";
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var banner = document.getElementById("cookieBanner");
+      var choice = null;
+
+      try {
+        choice = localStorage.getItem("lingroo_cookie_choice");
+      } catch (e) {}
+
+      if (banner && !choice) {
+        banner.style.display = "block";
+      }
+    });
+  </script>
 
   <script src="script.js"></script>
 </body>
