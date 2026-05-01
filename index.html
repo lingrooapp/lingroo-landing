@@ -53,7 +53,7 @@
 
     .nav-inner {
       min-height: 72px;
-      display: flex;
+      disay: flex;
       align-items: center;
       justify-content: space-between;
       gap: 18px;
@@ -1022,15 +1022,9 @@
       </nav>
 
       <div class="nav-actions">
-        <div class="lang-switch">
-          <button type="button" class="active">DE</button>
-          <button type="button">PL</button>
-          <button type="button">UKR</button>
-        </div>
-
-        <a class="login-link" href="https://www.lingroo.de/#training">Anmelden</a>
-        <button class="btn btn-primary" type="button" onclick="goToApp()">Jetzt testen</button>
-      </div>
+  <a class="login-link" href="https://www.lingroo.de/#training">Anmelden</a>
+  <button class="btn btn-primary" type="button" onclick="goToApp()">Jetzt testen</button>
+</div>
     </div>
   </header>
 
@@ -1178,7 +1172,7 @@
           <h2>Dein eigener Text wird zum Training</h2>
           <p>
             Lingroo zeigt dir nicht nur, ob dein Text funktioniert, sondern welche
-            Formulierungen prüfungsnäher wirken — ohne deinen Text komplett neu zu schreiben.
+            Formulierungen prüfungsnäher wirken — ohne deinen Text komett neu zu schreiben.
           </p>
         </div>
 
@@ -1193,7 +1187,7 @@
               <span class="arrow">→</span>
               <div>
                 <span class="good-text">Dies ist in erster Linie darauf zurückzuführen, dass</span>
-                <span class="why-text">Gehobene Formulierung mit komplexerer Syntax</span>
+                <span class="why-text">Gehobene Formulierung mit komexerer Syntax</span>
               </div>
             </div>
 
@@ -1250,7 +1244,7 @@
         <div class="training-copy">
           <div class="eyebrow">Realistisch. Effektiv. Zielgerichtet.</div>
 
-          <h2>Alle Prüfungsbereiche in einer Plattform</h2>
+          <h2>Alle Prüfungsbereiche in einer attform</h2>
 
           <p>
             Übe Lesen, Hören, Schreiben, Sprachbausteine und Wortschatz mit Aufgaben,
@@ -1286,7 +1280,7 @@
           </article>
 
           <article class="module-card">
-            <div class="module-visual purple">🎯</div>
+            <div class="module-visual pure">🎯</div>
             <h3>Sprachbausteine</h3>
             <p>Grammatik, Rektionen und C1-Strukturen.</p>
             <button onclick="goToApp()">Übungen starten →</button>
@@ -1353,7 +1347,7 @@
           <article class="audience-card">
             <h3>Für Selbstlerner</h3>
             <p>
-              Ein Plan statt Chaos aus PDFs, YouTube, Notizen und zufälligen Apps.
+              Ein an statt Chaos aus PDFs, YouTube, Notizen und zufälligen Apps.
             </p>
           </article>
         </div>
@@ -1371,7 +1365,7 @@
           <h2>Ein Preis, voller Zugriff</h2>
           <p>
             Prüfungsmodus, Writing-Upgrade, SRS-Wortschatz, Hören, Lesen und Sprachbausteine
-            in einer Plattform.
+            in einer attform.
           </p>
         </div>
 
@@ -1540,7 +1534,7 @@
         localStorage.setItem("lingroo_cookie_choice", "accepted");
       } catch (e) {}
       var banner = document.getElementById("cookieBanner");
-      if (banner) banner.style.display = "none";
+      if (banner) banner.style.disay = "none";
     }
 
     function declineCookies() {
@@ -1548,7 +1542,7 @@
         localStorage.setItem("lingroo_cookie_choice", "declined");
       } catch (e) {}
       var banner = document.getElementById("cookieBanner");
-      if (banner) banner.style.display = "none";
+      if (banner) banner.style.disay = "none";
     }
 
     document.addEventListener("DOMContentLoaded", function () {
@@ -1560,7 +1554,7 @@
       } catch (e) {}
 
       if (banner && !choice) {
-        banner.style.display = "block";
+        banner.style.disay = "block";
       }
     });
   </script>
