@@ -1355,3 +1355,22 @@ button {
     line-height: 1.22;
   }
 }
+
+/* Emergency fix for cropped landing screenshots */
+.landing-feature-card *,
+.feature-card *,
+.screen-card *,
+.showcase-card *,
+.demo-card * {
+  box-sizing: border-box;
+}
+
+.landing-feature-card img,
+.feature-card img,
+.screen-card img,
+.showcase-card img,
+.demo-card img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  max-width: 100% !important;
+}
