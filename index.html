@@ -1399,15 +1399,33 @@
       </div>
     </section>
 
+        <section id="pwa" class="section">
+      <div class="container">
+        <div class="cta-card">
+          <div>
+            <div class="eyebrow">Auch als App nutzbar</div>
+            <h2>Lingroo funktioniert im Browser — und auf Wunsch wie eine App.</h2>
+            <p>
+              Öffne Lingroo auf dem Handy und füge es zum Startbildschirm hinzu.
+              So kommst du schneller zu deiner täglichen C1/B2-Session.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary btn-large" type="button" onclick="goToApp('pwa_info')">
+            Lingroo öffnen
+          </button>
+        </div>
+      </div>
+    </section>
     <section id="pricing" class="section section-soft">
       <div class="container">
         <div class="section-head">
           <div class="eyebrow">Fair. Transparent. Flexibel.</div>
-          <h2>Ein Preis, voller Zugriff</h2>
+          <h2>Starte kostenlos. Zahle erst, wenn Lingroo dir hilft.</h2>
           <p>
-            Prüfungsmodus, Writing-Upgrade, SRS-Wortschatz, Hören, Lesen und Sprachbausteine
-            in einer Plattform.
-          </p>
+  Teste zuerst eine Aufgabe und speichere deinen Fortschritt. Premium ist optional,
+  wenn du regelmäßig für B2/C1 trainieren möchtest.
+</p>
         </div>
 
         <div class="pricing-card">
@@ -1437,7 +1455,7 @@
             </p>
 
             <button class="btn btn-primary btn-large" type="button" onclick="goToApp()">
-              7 Tage kostenlos testen
+              Kostenlos starten
             </button>
           </div>
 
@@ -1541,9 +1559,13 @@
   </div>
 
   <script>
-    function goToApp() {
-      window.location.href = "https://www.lingroo.de/#training";
-    }
+    function goToApp(source) {
+  const src = source || 'landing';
+  window.location.href =
+    'https://www.lingroo.de/?utm_source=lingroo_app&utm_medium=landing&utm_campaign=' +
+    encodeURIComponent(src) +
+    '#training';
+}
 
     function scrollToSection(id) {
       var el = document.getElementById(id);
