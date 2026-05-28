@@ -7,11 +7,9 @@
   <title>C1 Deutsch Prüfungstraining online | telc & Goethe Übungen | Lingroo</title>
 <meta name="description" content="Trainiere C1 Deutsch prüfungsnah: Sprachbausteine, Schreiben, Wortschatz, Lesen, Hören und Prüfungsmodus. Starte mit einer kostenlosen Aufgabe." />
 
-<link rel="canonical" href="https://lingroo.app/de/">
-<link rel="alternate" hreflang="de" href="https://lingroo.app/de/">
-<link rel="alternate" hreflang="pl" href="https://lingroo.app/pl/">
-<link rel="alternate" hreflang="uk" href="https://lingroo.app/uk/">
-<link rel="alternate" hreflang="en" href="https://lingroo.app/en/">
+<link rel="canonical" href="https://lingroo.app/">
+
+<meta property="og:url" content="https://lingroo.app/">
 <link rel="alternate" hreflang="x-default" href="https://lingroo.app/de/">
 
 <meta property="og:type" content="website">
@@ -1394,7 +1392,7 @@
         </div>
 
         <p class="b2-note">
-          Aktuell optimiert für C1. B2-Inhalte sind in Vorbereitung.
+          Aktuell stark auf C1 optimiert. B2-Inhalte werden schrittweise erweitert.
         </p>
       </div>
     </section>
@@ -1549,7 +1547,7 @@
     <div>
       Diese Website verwendet technisch notwendige Cookies und lokale Speicherung für Login,
       Einstellungen und Lernfortschritt. Weitere Informationen finden Sie in unserer
-      <a href="/datenschutz">Datenschutzerklärung</a>.
+      <a href="https://www.lingroo.de/datenschutz">Datenschutzerklärung</a>
     </div>
 
     <div class="cookie-actions">
@@ -1598,7 +1596,7 @@
         localStorage.setItem("lingroo_cookie_choice", "accepted");
       } catch (e) {}
       var banner = document.getElementById("cookieBanner");
-      if (banner) banner.style.disay = "none";
+      if (banner) banner.style.display = "none";
     }
 
     function declineCookies() {
@@ -1606,7 +1604,7 @@
         localStorage.setItem("lingroo_cookie_choice", "declined");
       } catch (e) {}
       var banner = document.getElementById("cookieBanner");
-      if (banner) banner.style.disay = "none";
+      if (banner) banner.style.display = "none";
     }
 
     document.addEventListener("DOMContentLoaded", function () {
@@ -1618,7 +1616,7 @@
       } catch (e) {}
 
       if (banner && !choice) {
-        banner.style.disay = "block";
+        banner.style.display = "block";
       }
     });
   </script>
