@@ -1019,6 +1019,52 @@ button {
   }
 }
 
+.section-free-start {
+  padding: 34px 0 18px;
+}
+
+.free-start-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr) auto;
+  gap: 20px;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid var(--lr-border);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 16px 45px rgba(30, 54, 90, 0.07);
+}
+
+.free-start-card h2 {
+  margin: 0 0 8px;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.035em;
+}
+
+.free-start-card p {
+  margin: 0;
+  color: var(--lr-muted);
+  line-height: 1.6;
+}
+
+.free-start-list {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  color: #24364e;
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .free-start-card {
+    grid-template-columns: 1fr;
+  }
+
+  .free-start-card .btn {
+    width: 100%;
+  }
+}
+
 @media (max-width: 980px) {
   .nav-links,
   .lang-switch {
