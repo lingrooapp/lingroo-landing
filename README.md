@@ -1,22 +1,14 @@
-# Lingroo.app multilingual landing
+Lingroo.app Landing V4: B2/C1 mini placement test, writing demo, pricing 6.99, languages /de /pl /en /ua /ru. Delete old /uk folder before deploy.
 
-Copy the contents into your `lingroo.app` repo root.
 
-Files:
-- index.html
-- de/index.html
-- pl/index.html
-- en/index.html
-- uk/index.html
-- assets/style.css
+## V5 legal pages
 
-Git:
-```powershell
-cd C:\path\to\lingroo-app-repo
-git status
-git add .
-git commit -m "Add multilingual Lingroo landing pages"
-git push
-```
+V5 przywraca linki w stopce do stron prawnych z oryginalnego repo:
 
-CTA buttons point to lingroo.de with UTM parameters.
+- `/impressum.html`
+- `/datenschutz.html`
+- `/agb.html`
+- `/widerruf.html`
+
+Ważne:
+Nie usuwaj tych istniejących plików z repo. Ten ZIP nie podmienia treści prawnych, tylko dodaje linki do nich na każdej wersji językowej landingu.
