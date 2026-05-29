@@ -25,3 +25,7 @@ V6 changes the landing footer to use the real current legal pages on www.lingroo
 - mailto cancellation link: Kündigung Lingroo Premium
 
 This avoids empty/outdated legal pages on lingroo.app and keeps the legal content consistent with the main app.
+
+
+Stage 1 SEO finish: added sitemap.xml and robots.txt.
+Submit https://www.lingroo.app/sitemap.xml in Google Search Console.

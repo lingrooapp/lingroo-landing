@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.lingroo.app/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/de/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+  </url>
+</urlset>
