@@ -21,3 +21,55 @@
 .seo-route-grid strong{display:block;margin-bottom:8px}
 .seo-route-grid span{display:block;color:#62708a;line-height:1.45;font-size:14px}
 @media(max-width:920px){.seo-route-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.seo-route-grid{grid-template-columns:1fr}}
+
+
+/* Stage 3.1.1 — homepage internal practice links */
+.seo-longtail-links {
+  color: #102033;
+}
+
+.seo-longtail-links .section-head {
+  max-width: 760px;
+}
+
+.seo-longtail-links .eyebrow {
+  display: inline-flex;
+  color: #1748bd;
+  background: #eef5ff;
+  border: 1px solid #dbe6f7;
+  border-radius: 999px;
+  padding: 7px 11px;
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.seo-longtail-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  background: #ffffff;
+  color: #1748bd;
+  border: 1px solid #dbe6f7;
+  border-radius: 999px;
+  padding: 9px 13px;
+  font-weight: 850;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(30, 54, 90, 0.08);
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+.seo-longtail-links a:hover {
+  transform: translateY(-1px);
+  border-color: #2f6eff;
+  box-shadow: 0 16px 38px rgba(30, 54, 90, 0.12);
+}
+
+@media (max-width: 620px) {
+  .seo-longtail-links a {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}

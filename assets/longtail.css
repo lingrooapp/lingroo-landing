@@ -55,3 +55,66 @@ body.longtail-body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSy
 
 .lt-lang-mini{margin-top:0}.lt-pill.is-active{background:#fff;color:#1748bd;border-color:#fff}
 @media(max-width:1060px){.lt-lang-mini{display:none}}
+
+
+/* Stage 3.1.1 — user-facing link readability fix */
+.lt-section .lt-proof-pills .lt-pill {
+  background: #ffffff;
+  color: #1748bd;
+  border: 1px solid #dbe6f7;
+  box-shadow: 0 12px 30px rgba(30, 54, 90, 0.08);
+}
+
+.lt-section .lt-proof-pills .lt-pill:hover {
+  transform: translateY(-1px);
+  border-color: #2f6eff;
+  box-shadow: 0 16px 38px rgba(30, 54, 90, 0.12);
+}
+
+
+/* Stage 3.1.2 — Serious FAQ / objection handling */
+.lt-faq {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.lt-faq details {
+  background: #ffffff;
+  border: 1px solid #dbe6f7;
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(30, 54, 90, 0.07);
+  padding: 0;
+  overflow: hidden;
+}
+
+.lt-faq summary {
+  cursor: pointer;
+  padding: 18px 20px;
+  color: #102033;
+  font-weight: 900;
+  line-height: 1.35;
+  list-style-position: inside;
+}
+
+.lt-faq details[open] summary {
+  border-bottom: 1px solid #edf3fb;
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+}
+
+.lt-faq p {
+  margin: 0;
+  padding: 16px 20px 20px;
+  color: #4b5f7a;
+  line-height: 1.65;
+  font-size: 15.5px;
+}
+
+@media (max-width: 620px) {
+  .lt-faq summary {
+    padding: 16px;
+  }
+  .lt-faq p {
+    padding: 14px 16px 18px;
+  }
+}
