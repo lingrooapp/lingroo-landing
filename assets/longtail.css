@@ -319,3 +319,31 @@ html, body {
     display:block;
   }
 }
+
+
+/* Stage 3.2 — vocabulary SEO pages */
+.vocab-longtail-body .lt-app-shell {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(23,199,183,.16), transparent 32%),
+    linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+}
+
+.vocab-longtail-body .lt-question strong {
+  color: #0b1f46;
+}
+
+.vocab-longtail-body .lt-task-kicker {
+  letter-spacing: .065em;
+}
+
+.vocab-longtail-body .lt-feedback strong {
+  color: #0b1f46;
+}
+
+@media(max-width:620px){
+  .vocab-longtail-body .lt-question br {
+    display:block;
+    content:"";
+    margin-top:8px;
+  }
+}
