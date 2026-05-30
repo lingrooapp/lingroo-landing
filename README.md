@@ -29,3 +29,12 @@ This avoids empty/outdated legal pages on lingroo.app and keeps the legal conten
 
 Stage 1 SEO finish: added sitemap.xml and robots.txt.
 Submit https://www.lingroo.app/sitemap.xml in Google Search Console.
+
+
+## Stage 2 fixed by ChatGPT
+
+- Normalized SEO head on `/de/`, `/pl/`, `/en/`, `/ua/`, `/ru/`.
+- Added `og:image`, Twitter cards, favicon/apple-touch icon.
+- Added UTM tracking to all main CTA links to `www.lingroo.de`.
+- Rebuilt sitemap.xml and kept `hreflang=uk` pointing to `/ua/` because this repo uses `/ua/` as the Ukrainian URL.
+- Root `/` redirects to `/de/`.
