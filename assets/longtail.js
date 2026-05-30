@@ -7,10 +7,20 @@
     return 'https://www.lingroo.de/?utm_source=lingroo_app&utm_medium=seo&utm_campaign=' + encodeURIComponent(campaign || 'longtail') + '&utm_content=' + encodeURIComponent(langCode()) + '#training';
   }
   const i18n={de:{next:'Nächste Aufgabe',result:'Auswertung anzeigen',done:'Mini-Check abgeschlossen',you:'Du hast',of:'von',right:'richtig.',good:'✅ Stark. ',bad:'💡 Noch nicht. ',correct:'Richtig: ',after:'Genau so fühlt sich Lingroo an: kurze Aufgabe, sofortiges Feedback, nächster Fokus. In der App warten mehr Aufgaben, Fortschritt und SRS.',more:'Noch 5 ähnliche Aufgaben kostenlos lösen',why:'Warum?'},pl:{next:'Następne zadanie',result:'Pokaż wynik',done:'Mini-check zakończony',you:'Masz',of:'z',right:'poprawnych.',good:'✅ Mocno. ',bad:'💡 Jeszcze nie. ',correct:'Poprawnie: ',after:'Tak działa Lingroo: krótkie zadanie, feedback od razu i następny fokus. W aplikacji czeka więcej zadań, progres i SRS.',more:'Zrób jeszcze 5 podobnych zadań za darmo',why:'Dlaczego?'},en:{next:'Next task',result:'Show result',done:'Mini-check complete',you:'You got',of:'of',right:'right.',good:'✅ Nice. ',bad:'💡 Not yet. ',correct:'Correct: ',after:'This is how Lingroo feels: short task, instant feedback and the next focus. In the app you get more tasks, progress and SRS.',more:'Solve 5 more similar tasks for free',why:'Why?'},uk:{next:'Наступне завдання',result:'Показати результат',done:'Mini-check завершено',you:'У тебе',of:'з',right:'правильно.',good:'✅ Сильно. ',bad:'💡 Ще ні. ',correct:'Правильно: ',after:'Так працює Lingroo: коротке завдання, миттєвий feedback і наступний фокус. У застосунку є більше завдань, прогрес і SRS.',more:'Розв’язати ще 5 схожих завдань безкоштовно',why:'Чому?'},ru:{next:'Следующее задание',result:'Показать результат',done:'Mini-check завершён',you:'У тебя',of:'из',right:'правильно.',good:'✅ Отлично. ',bad:'💡 Пока нет. ',correct:'Правильно: ',after:'Так работает Lingroo: короткое задание, мгновенный feedback и следующий фокус. В приложении есть больше заданий, прогресс и SRS.',more:'Решить ещё 5 похожих заданий бесплатно',why:'Почему?'}};
-  function t(k){ const L=i18n[langCode()]||i18n.de; return L[k]||i18n.de[k]||k; }
+  function tr(k){ const L=i18n[langCode()]||i18n.de; return L[k]||i18n.de[k]||k; }
+  function writingWhy(){
+    const m={
+      de:''+writingWhy()+'',
+      pl:'To brzmi bardziej formalnie, jest lepiej uporządkowane i bliżej stylu C1.',
+      en:'This sounds more formal, better structured and closer to C1 writing style.',
+      uk:'Це звучить формальніше, структурованіше і ближче до стилю C1.',
+      ru:'Это звучит более формально, структурированно и ближе к стилю C1.'
+    };
+    return m[langCode()] || m.de;
+  }
   function confetti(){
-    const box=document.createElement('div'); box.className='lt-confetti';
-    for(let i=0;i<38;i++){const p=document.createElement('i');p.style.left=(Math.random()*100)+'%';p.style.animationDelay=(Math.random()*180)+'ms';box.appendChild(p)}
+    const box=document.createElementr('div'); box.className='lt-confetti';
+    for(let i=0;i<38;i++){const p=document.createElementr('i');p.style.left=(Math.random()*100)+'%';p.style.animationDelay=(Math.random()*180)+'ms';box.appendChild(p)}
     document.body.appendChild(box); setTimeout(()=>box.remove(),1500);
   }
   function initQuiz(){
@@ -29,10 +39,10 @@
       opts.innerHTML='';
       fb.className='lt-feedback';
       fb.innerHTML='';
-      next.textContent = idx === tasks.length - 1 ? t('result') : t('next');
+      next.textContent = idx === tasks.length - 1 ? tr('result') : tr('next');
       next.disabled=true;
       (t.options||[]).forEach(opt=>{
-        const b=document.createElement('button');
+        const b=document.createElementr('button');
         b.className='lt-option';
         b.type='button';
         b.textContent=opt;
@@ -45,7 +55,7 @@
           } else { score++; confetti(); }
           answered++;
           fb.className='lt-feedback show';
-          fb.innerHTML=(good?t('good'):t('bad')) + '<strong>'+t('correct')+t.answer+'</strong><br>'+ (t.explanation||'');
+          fb.innerHTML=(good?tr('good'):tr('bad')) + '<strong>'+tr('correct')+t.answer+'</strong><br>'+ (t.explanation||'');
           next.disabled=false;
           update();
         });
@@ -62,7 +72,7 @@
     next.addEventListener('click',()=>{
       if(idx < tasks.length-1){idx++; render();}
       else {
-        root.innerHTML='<div class="lt-question-card"><div class="lt-task-kicker">'+t('done')+'</div><h2 style="margin:0 0 10px;color:#102033">'+t('you')+' '+score+' '+t('of')+' '+tasks.length+' '+t('right')+'</h2><p style="color:#62708a;line-height:1.6">'+t('after')+'</p><a class="lt-btn lt-btn-primary" href="'+appUrl(campaign)+'">'+t('more')+'</a></div>';
+        root.innerHTML='<div class="lt-question-card"><div class="lt-task-kicker">'+tr('done')+'</div><h2 style="margin:0 0 10px;color:#102033">'+tr('you')+' '+score+' '+tr('of')+' '+tasks.length+' '+tr('right')+'</h2><p style="color:#62708a;line-height:1.6">'+tr('after')+'</p><a class="lt-btn lt-btn-primary" href="'+appUrl(campaign)+'">'+tr('more')+'</a></div>';
         if(score>=Math.ceil(tasks.length/2)) confetti();
       }
     });
@@ -76,12 +86,12 @@
     const base=qs('[data-writing-base]', root), out=qs('[data-writing-output]', root), score=qs('[data-writing-score]', root), style=qs('[data-writing-style]', root), struct=qs('[data-writing-structure]', root), opts=qs('[data-writing-options]', root);
     qsa('[data-app-cta]').forEach(a=>a.href=appUrl(campaign));
     items.forEach((it,i)=>{
-      const b=document.createElement('button');
+      const b=document.createElementr('button');
       b.type='button';
       b.innerHTML='<strong>'+it.prompt+'</strong><br><span>'+it.base+'</span>';
       b.addEventListener('click',()=>{
         base.textContent=it.base;
-        out.innerHTML='<strong>Upgrade:</strong><br>'+it.sample+'<br><br><span style="color:#bcd0ff">'+t('why')+'</span> Das ist formeller, strukturierter und näher am C1-Schreibstil.';
+        out.innerHTML='<strong>Upgrade:</strong><br>'+it.sample+'<br><br><span style="color:#bcd0ff">'+tr('why')+'</span> '+writingWhy()+'';
         score.textContent=(32+i*2)+'/48';
         style.textContent=i%2?'präziser':'formeller';
         struct.textContent=i%3?'klarer':'stärker';
