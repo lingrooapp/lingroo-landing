@@ -4,3 +4,20 @@
 
 .legal-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
 .legal-links a{color:#c8d6ff;text-decoration:underline;text-underline-offset:3px}
+
+.language-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.language-links a{color:#e8efff;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:7px 10px;font-size:12px;font-weight:850;text-decoration:none}
+.language-links a:hover{background:rgba(47,110,255,.22)}
+
+
+/* Stage 3 internal SEO link cards */
+.seo-route-section{padding:50px 0;color:#102033;background:#f5f8ff}
+.seo-route-head{max-width:760px;margin:0 auto 22px;text-align:center}
+.seo-route-head h2{margin:8px 0 8px;font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.04em;color:#102033}
+.seo-route-head p{color:#62708a;line-height:1.65}
+.seo-route-grid{width:min(1120px,calc(100% - 28px));margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.seo-route-grid a{background:#fff;border:1px solid #dbe6f7;border-radius:22px;padding:18px;text-decoration:none;color:#102033;box-shadow:0 16px 42px rgba(30,54,90,.08);transition:.16s ease}
+.seo-route-grid a:hover{transform:translateY(-2px);border-color:#2f6eff}
+.seo-route-grid strong{display:block;margin-bottom:8px}
+.seo-route-grid span{display:block;color:#62708a;line-height:1.45;font-size:14px}
+@media(max-width:920px){.seo-route-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.seo-route-grid{grid-template-columns:1fr}}
