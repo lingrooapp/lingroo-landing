@@ -52,3 +52,6 @@ body.longtail-body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSy
 .lt-footer{padding:36px 0;color:#5f6f86;background:#f5f8ff}.lt-footer a{color:#1748bd;text-decoration:none;font-weight:800}.lt-footer-grid{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between;align-items:center;border-top:1px solid var(--lt-border);padding-top:20px}
 .lt-confetti{position:fixed;inset:0;pointer-events:none;z-index:999;overflow:hidden}.lt-confetti i{position:absolute;width:9px;height:14px;background:var(--lt-blue);top:-20px;animation:ltFall 1200ms ease-out forwards;border-radius:3px}.lt-confetti i:nth-child(3n){background:var(--lt-green)}.lt-confetti i:nth-child(4n){background:var(--lt-yellow)}@keyframes ltFall{to{transform:translateY(105vh) rotate(520deg);opacity:.2}}
 @media(max-width:880px){.lt-hero-grid,.lt-demo-zone,.lt-writing-grid{grid-template-columns:1fr}.lt-side-panel{position:static}.lt-grid{grid-template-columns:1fr}.lt-cta-band{flex-direction:column;align-items:stretch}.lt-btn{width:100%}.lt-nav-links{display:none}.lt-hero{text-align:left}.lt-app-shell{max-width:420px;margin:0 auto}}
+
+.lt-lang-mini{margin-top:0}.lt-pill.is-active{background:#fff;color:#1748bd;border-color:#fff}
+@media(max-width:1060px){.lt-lang-mini{display:none}}

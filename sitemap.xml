@@ -1,93 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.lingroo.app/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.lingroo.app/de/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/pl/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/en/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/ua/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/ru/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/de/c1-sprachbausteine-uebungen/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.86</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/c1-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/de/c1-konnektoren-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/c1-konnektoren-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/c1-konnektoren-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/c1-konnektoren-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/c1-konnektoren-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-konnektoren-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/de/c1-schreiben-uebungen/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.86</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/c1-schreiben-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/c1-schreiben-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/c1-schreiben-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/c1-schreiben-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/c1-schreiben-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/de/telc-c1-deutsch-training/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.86</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/telc-c1-deutsch-training/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/telc-c1-deutsch-training/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/telc-c1-deutsch-training/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/telc-c1-deutsch-training/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/telc-c1-deutsch-training/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
   <url>
     <loc>https://www.lingroo.app/de/b2-sprachbausteine-uebungen/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.82</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/b2-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-sprachbausteine-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/de/b2-lueckentexte-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/pl/b2-lueckentexte-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/en/b2-lueckentexte-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ua/b2-lueckentexte-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
+  </url>
+  <url>
+    <loc>https://www.lingroo.app/ru/b2-lueckentexte-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.lingroo.app/de/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.lingroo.app/pl/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.lingroo.app/en/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.lingroo.app/ua/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.lingroo.app/ru/b2-lueckentexte-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.lingroo.app/de/"/>
   </url>
 </urlset>
