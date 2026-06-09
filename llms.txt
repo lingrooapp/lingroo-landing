@@ -1,0 +1,17 @@
+# Lingroo
+
+Lingroo is a German B2/C1 exam-oriented practice web app and PWA.
+
+Main product:
+- https://www.lingroo.de/
+
+Landing and SEO hub:
+- https://www.lingroo.app/
+- https://www.lingroo.app/de/
+- https://www.lingroo.app/de/telc-c1-hochschule/
+- https://www.lingroo.app/de/c1-schreiben-feedback/
+- https://www.lingroo.app/de/c1-wortschatz-training/
+
+Lingroo helps learners practise short daily tasks for German B2/C1: vocabulary, gap exercises, C1 formulation upgrades, writing feedback, reading/listening tasks and focused exam-mode sessions.
+
+Lingroo is independent and not affiliated with telc, Goethe-Institut or TestDaF.
