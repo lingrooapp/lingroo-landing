@@ -1,17 +1,38 @@
 # Lingroo
 
-Lingroo is a German B2/C1 exam-oriented practice web app and PWA.
+Lingroo is an independent German B2/C1 learning web app and PWA. It is designed for short daily practice and exam-oriented preparation. It is not affiliated with telc, Goethe-Institut or TestDaF.
 
-Main product:
-- https://www.lingroo.de/
+## Current offer
+- Soft-launch Premium price: EUR 4.99 per month
+- Full tester access: 14 days after registration
+- Monthly cancellation
+- Main app interface: German
+- Vocabulary support: Polish, Ukrainian, Russian and English
+- Speaking practice: in development, not yet a finished core feature
 
-Landing and SEO hub:
-- https://www.lingroo.app/
+## Verified current content inventory
+- Vocabulary: 997 entries (298 B2, 699 C1)
+- Context synonym tasks: 750 (250 B2, 500 C1)
+- Gap and structure tasks: 320 counted items (150 B2 single-gap tasks, 150 gaps in 30 B2 texts, 20 C1 structure tasks)
+- Reading: 80 texts (30 B2, 50 C1) with 450 questions
+- Listening: 40 primary items (15 B2, 25 C1) with 200 questions
+- Writing topics: 30 (15 B2, 15 C1)
+- Short writing exercises: 14 (6 B2, 8 C1)
+- Exam Mode: 6 original training packs (3 B2, 3 C1)
+
+## Access logic
+Without Premium, the current C1 app logic allows a limited sample, including 5 listening items, 5 reading texts, 1 writing topic, 200 vocabulary entries and 100 synonym tasks. Tester and Premium plans unlock full access.
+
+## Main pages
 - https://www.lingroo.app/de/
-- https://www.lingroo.app/de/telc-c1-hochschule/
+- https://www.lingroo.app/de/preise/
 - https://www.lingroo.app/de/c1-schreiben-feedback/
-- https://www.lingroo.app/de/c1-wortschatz-training/
-
-Lingroo helps learners practise short daily tasks for German B2/C1: vocabulary, gap exercises, C1 formulation upgrades, writing feedback, reading/listening tasks and focused exam-mode sessions.
-
-Lingroo is independent and not affiliated with telc, Goethe-Institut or TestDaF.
+- https://www.lingroo.app/de/telc-c1-hochschule/
+- https://www.lingroo.app/pl/
+- https://www.lingroo.app/pl/cennik/
+- https://www.lingroo.app/en/
+- https://www.lingroo.app/en/pricing/
+- https://www.lingroo.app/ua/
+- https://www.lingroo.app/ua/tsiny/
+- https://www.lingroo.app/ru/
+- https://www.lingroo.app/ru/ceny/

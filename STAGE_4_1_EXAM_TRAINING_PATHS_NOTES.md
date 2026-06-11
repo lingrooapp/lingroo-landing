@@ -8,7 +8,7 @@ Key wording:
 - Lingroo is not an official exam simulation.
 - Lingroo helps train areas relevant for telc, Goethe and TestDaF preparation.
 - Focus areas: vocabulary, gap tasks, writing, reading/listening and Exam Mode.
-- Price remains unchanged at 6.99 EUR/month.
+- Price remains unchanged at 4.99 EUR/month.
 
 Updated pages:
 - /de/

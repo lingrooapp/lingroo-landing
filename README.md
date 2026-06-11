@@ -1,4 +1,4 @@
-Lingroo.app Landing V4: B2/C1 mini placement test, writing demo, pricing 6.99, languages /de /pl /en /ua /ru. Delete old /uk folder before deploy.
+Lingroo.app Landing V4: B2/C1 mini placement test, writing demo, pricing 4.99, languages /de /pl /en /ua /ru. Delete old /uk folder before deploy.
 
 
 ## V5 legal pages
