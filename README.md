@@ -1,40 +1,22 @@
-Lingroo.app Landing V4: B2/C1 mini placement test, writing demo, pricing 4.99, languages /de /pl /en /ua /ru. Delete old /uk folder before deploy.
+# Lingroo landing
 
+Statyczny landing dla `lingroo.app`. Wersja zawiera zachowane adresy SEO oraz uproszczoną warstwę utrzymania dla stron głównych i cennika.
 
-## V5 legal pages
+## Najważniejsze dane produktu
+Źródłem prawdy jest `config/product.json`:
+- cena: 4,99 EUR miesięcznie,
+- pełny dostęp testowy: 14 dni,
+- poziomy: B2 i C1,
+- trening mówienia: w budowie.
 
-V5 przywraca linki w stopce do stron prawnych z oryginalnego repo:
+## Przed publikacją
+Uruchom lokalnie:
 
-- `/impressum.html`
-- `/datenschutz.html`
-- `/agb.html`
-- `/widerruf.html`
+```bash
+python scripts/audit_site.py
+```
 
-Ważne:
-Nie usuwaj tych istniejących plików z repo. Ten ZIP nie podmienia treści prawnych, tylko dodaje linki do nich na każdej wersji językowej landingu.
+Audyt sprawdza starą cenę, stary okres testowy, brakujące pliki, podstawowe linki wewnętrzne oraz mieszanie języków na kluczowych stronach.
 
-
-## V6 external legal links
-
-V6 changes the landing footer to use the real current legal pages on www.lingroo.de:
-
-- https://www.lingroo.de/impressum
-- https://www.lingroo.de/datenschutz
-- https://www.lingroo.de/agb
-- https://www.lingroo.de/widerruf
-- mailto cancellation link: Kündigung Lingroo Premium
-
-This avoids empty/outdated legal pages on lingroo.app and keeps the legal content consistent with the main app.
-
-
-Stage 1 SEO finish: added sitemap.xml and robots.txt.
-Submit https://www.lingroo.app/sitemap.xml in Google Search Console.
-
-
-## Stage 2 fixed by ChatGPT
-
-- Normalized SEO head on `/de/`, `/pl/`, `/en/`, `/ua/`, `/ru/`.
-- Added `og:image`, Twitter cards, favicon/apple-touch icon.
-- Added UTM tracking to all main CTA links to `www.lingroo.de`.
-- Rebuilt sitemap.xml and kept `hreflang=uk` pointing to `/ua/` because this repo uses `/ua/` as the Ukrainian URL.
-- Root `/` redirects to `/de/`.
+## Publikacja
+Zawartość folderu należy wgrać do katalogu głównego repozytorium GitHub Pages. Nie zmieniaj istniejących adresów URL bez przekierowań.

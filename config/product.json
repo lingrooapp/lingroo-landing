@@ -1,0 +1,50 @@
+{
+  "name": "Lingroo",
+  "price": 4.99,
+  "currency": "EUR",
+  "billing": "monthly",
+  "trial_days": 14,
+  "levels": [
+    "B2",
+    "C1"
+  ],
+  "interface_language": "de",
+  "vocabulary_support": [
+    "pl",
+    "uk",
+    "ru",
+    "en"
+  ],
+  "speaking_status": "in_development",
+  "inventory": {
+    "vocabulary_total": 997,
+    "vocabulary_b2": 298,
+    "vocabulary_c1": 699,
+    "synonym_tasks_total": 750,
+    "synonym_tasks_b2": 250,
+    "synonym_tasks_c1": 500,
+    "gap_structure_tasks_total": 320,
+    "reading_texts_total": 80,
+    "reading_questions_total": 450,
+    "listening_materials_total": 40,
+    "listening_questions_total": 200,
+    "writing_topics_total": 30,
+    "writing_topics_b2": 15,
+    "writing_topics_c1": 15,
+    "short_writing_tasks_total": 14,
+    "short_writing_tasks_b2": 6,
+    "short_writing_tasks_c1": 8,
+    "exam_training_sets_total": 6,
+    "exam_training_sets_b2": 3,
+    "exam_training_sets_c1": 3
+  },
+  "free_c1_limits": {
+    "listening": 5,
+    "reading": 5,
+    "writing_topics": 1,
+    "vocabulary": 200,
+    "synonyms": 100
+  },
+  "b2_free_access_note": "In the current test version, a broad part of B2 training is available without the C1 paywall. This is a product test and not a permanent guarantee.",
+  "legal_note": "Independent learning product. Not affiliated with telc, Goethe-Institut or TestDaF. Exam training sets are original Lingroo materials, not official examination papers."
+}

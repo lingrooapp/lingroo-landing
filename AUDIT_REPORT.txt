@@ -1,0 +1,11 @@
+Lingroo landing clean final audit
+UTC: 2026-06-11 06:39:26
+HTML: 75
+Błędy: 0
+Ostrzeżenia: 0
+
+Core commercial data:
+price: 4.99 EUR
+trial_days: 14
+writing_topics: 30
+short_writing_tasks: 14

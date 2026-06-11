@@ -1,38 +1,38 @@
 # Lingroo
 
-Lingroo is an independent German B2/C1 learning web app and PWA. It is designed for short daily practice and exam-oriented preparation. It is not affiliated with telc, Goethe-Institut or TestDaF.
+Lingroo is an independent web application and installable PWA for German learners at B2 and C1 level.
 
-## Current offer
-- Soft-launch Premium price: EUR 4.99 per month
-- Full tester access: 14 days after registration
-- Monthly cancellation
-- Main app interface: German
+## Core product facts
+- Main application: https://www.lingroo.de/
+- Public information site: https://www.lingroo.app/
+- Price: EUR 4.99 per month
+- Full trial after registration: 14 days
+- Billing: monthly; cancellation before the next billing period
+- Interface: German
 - Vocabulary support: Polish, Ukrainian, Russian and English
-- Speaking practice: in development, not yet a finished core feature
+- Speaking practice: in development, not currently sold as a finished feature
 
-## Verified current content inventory
-- Vocabulary: 997 entries (298 B2, 699 C1)
-- Context synonym tasks: 750 (250 B2, 500 C1)
-- Gap and structure tasks: 320 counted items (150 B2 single-gap tasks, 150 gaps in 30 B2 texts, 20 C1 structure tasks)
-- Reading: 80 texts (30 B2, 50 C1) with 450 questions
-- Listening: 40 primary items (15 B2, 25 C1) with 200 questions
-- Writing topics: 30 (15 B2, 15 C1)
-- Short writing exercises: 14 (6 B2, 8 C1)
-- Exam Mode: 6 original training packs (3 B2, 3 C1)
+## Current content library
+- 997 vocabulary entries: 298 B2 and 699 C1
+- 750 contextual synonym tasks: 250 B2 and 500 C1
+- 320 gap and language-structure tasks
+- 80 reading texts with 450 questions
+- 40 listening materials with 200 questions
+- 30 writing topics: 15 B2 and 15 C1
+- 14 short writing exercises: 6 B2 and 8 C1
+- 6 original exam-mode training sets: 3 B2 and 3 C1
 
-## Access logic
-Without Premium, the current C1 app logic allows a limited sample, including 5 listening items, 5 reading texts, 1 writing topic, 200 vocabulary entries and 100 synonym tasks. Tester and Premium plans unlock full access.
+## Access model
+A broad part of B2 practice is open during the current test phase. Free C1 access is limited to selected samples. A registered tester receives full access for 14 days; Premium continues full access afterwards.
+
+## Important limitation
+Lingroo is not affiliated with telc, Goethe-Institut or TestDaF. Its training sets are original Lingroo materials and are not official examination papers.
 
 ## Main pages
-- https://www.lingroo.app/de/
-- https://www.lingroo.app/de/preise/
-- https://www.lingroo.app/de/c1-schreiben-feedback/
-- https://www.lingroo.app/de/telc-c1-hochschule/
-- https://www.lingroo.app/pl/
-- https://www.lingroo.app/pl/cennik/
-- https://www.lingroo.app/en/
-- https://www.lingroo.app/en/pricing/
-- https://www.lingroo.app/ua/
-- https://www.lingroo.app/ua/tsiny/
-- https://www.lingroo.app/ru/
-- https://www.lingroo.app/ru/ceny/
+- German pricing: https://www.lingroo.app/de/preise/
+- Polish pricing: https://www.lingroo.app/pl/cennik/
+- English pricing: https://www.lingroo.app/en/pricing/
+- Ukrainian pricing: https://www.lingroo.app/ua/tsiny/
+- Russian pricing: https://www.lingroo.app/ru/ceny/
+- C1 writing practice: https://www.lingroo.app/de/c1-schreiben-feedback/
+- telc C1 Hochschule preparation: https://www.lingroo.app/de/telc-c1-hochschule/

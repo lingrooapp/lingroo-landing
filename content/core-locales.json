@@ -1,0 +1,802 @@
+{
+  "de": {
+    "path": "de/preise",
+    "home": "/de/",
+    "title": "Lingroo Preise: Deutsch B2/C1 trainieren | 4,99 €",
+    "desc": "Lingroo kostet 4,99 € pro Monat. Vergleiche den kostenlosen Einstieg, 14 Tage vollständigen Testzugang und Premium für Deutsch B2/C1.",
+    "nav_home": "Startseite",
+    "nav_scope": "Inhalte",
+    "nav_price": "Preise",
+    "open": "Training öffnen",
+    "kicker": "Deutsch B2/C1 · Testphase",
+    "h1": "Ein Preis. Klarer Zugang zu B2- und C1-Training.",
+    "intro": "Nach der Registrierung kannst du Lingroo 14 Tage vollständig testen. Danach kostet Premium 4,99 € pro Monat. Du kannst monatlich kündigen.",
+    "trial": "14 Tage vollständig testen",
+    "compare": "Zugänge vergleichen",
+    "phase": "Preis in der Testphase",
+    "month": "Monat",
+    "price_note": "Monatlich kündbar. Keine Jahresbindung.",
+    "checks": [
+      "vollständiger Testzugang nach der Registrierung",
+      "B2- und C1-Inhalte, Lernfortschritt und Wiederholungen",
+      "Schreibtraining mit Rückmeldung und Prüfungsmodus"
+    ],
+    "what_h": "Was du in Lingroo bekommst",
+    "what_p": "Konkrete Lerninhalte statt einer unklaren Funktionsliste.",
+    "features": [
+      [
+        "Wortschatz im Kontext",
+        "B2- und C1-Wortschatz mit deutschen Beispielen, Kollokationen und Hilfen auf Polnisch, Ukrainisch, Russisch und Englisch."
+      ],
+      [
+        "Lesen und Hören",
+        "Eigenständig erstellte Texte und Aufnahmen mit Fragen zu Hauptaussage, Details, Schlussfolgerungen und Positionen."
+      ],
+      [
+        "Lücken und Sprachstrukturen",
+        "Rektion, Präpositionen, Konnektoren, Textzusammenhang und längere Lückentexte."
+      ],
+      [
+        "Schreiben mit Rückmeldung",
+        "15 Themen auf B2 und 15 auf C1 sowie 14 kurze Übungen zu Argumentation, Verknüpfungen und formellem Stil."
+      ],
+      [
+        "Prüfungsmodus",
+        "Drei eigenständig erstellte Trainingssets auf B2 und drei auf C1. Es handelt sich nicht um offizielle Prüfungsbögen."
+      ],
+      [
+        "Fortschritt und Wiederholung",
+        "Ergebnisse werden gespeichert. Fehler können erneut geübt werden; der nächste Lernschwerpunkt richtet sich nach den bisherigen Antworten."
+      ]
+    ],
+    "inventory_h": "Was aktuell enthalten ist",
+    "inventory_p": "Die Zahlen stammen aus den derzeit verwendeten Inhaltsdateien und sind keine Hochrechnung.",
+    "labels": [
+      "Wortschatzeinträge",
+      "Synonymaufgaben",
+      "Lücken- und Strukturaufgaben",
+      "Lesetexte",
+      "Hörmaterialien",
+      "Trainingssets im Prüfungsmodus",
+      "Schreibthemen",
+      "kurze Schreibübungen"
+    ],
+    "writing_h": "Schreiben: 30 Themen und 14 kurze Übungen",
+    "writing_p": "Die Themen reichen von Homeoffice, Integration und nachhaltigem Konsum auf B2 bis zu demografischem Wandel, Globalisierung und künstlicher Intelligenz auf C1.",
+    "simple": "B2 / einfacher",
+    "formal": "C1 / formeller",
+    "simple_ex": "Viele Leute denken, dass das wichtig ist.",
+    "formal_ex": "Zahlreiche Menschen sind der Auffassung, dass dies von großer Bedeutung ist.",
+    "compare_h": "Kostenloser Einstieg, Testzugang und Premium",
+    "cols": [
+      "Bereich",
+      "Kostenlos",
+      "14 Tage Testzugang",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "Hören C1",
+        "5 Materialien",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Lesen C1",
+        "5 Texte",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Schreiben C1",
+        "1 Thema",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Wortschatz C1",
+        "200 Einträge",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Synonyme C1",
+        "100 Aufgaben",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "B2-Training",
+        "in der Testphase weitgehend offen",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Prüfungsmodus C1",
+        "gesperrt",
+        "vollständig",
+        "vollständig"
+      ],
+      [
+        "Fortschritt und Wiederholungen",
+        "eingeschränkt",
+        "vollständig",
+        "vollständig"
+      ]
+    ],
+    "b2_note": "Warum ist B2 derzeit so offen? In der aktuellen Testphase möchten wir zuerst sehen, welche Inhalte Lernende wirklich nutzen. Deshalb ist ein großer Teil des B2-Trainings ohne die C1-Beschränkungen zugänglich. Dieses Modell kann später angepasst werden.",
+    "limits_h": "Was Lingroo nicht verspricht",
+    "limits": "Lingroo ist ein unabhängiges Lernwerkzeug. Die sechs Trainingssets sind eigene Materialien und keine offiziellen Prüfungsbögen von telc, Goethe-Institut oder TestDaF. Das Sprechtraining befindet sich noch in Entwicklung.",
+    "faq_h": "Häufige Fragen",
+    "faqs": [
+      [
+        "Was kann ich kostenlos nutzen?",
+        "Du kannst Lingroo kennenlernen und einen begrenzten Teil der C1-Inhalte nutzen: 5 Hörmaterialien, 5 Lesetexte, 1 Schreibthema, 200 C1-Wortschatzeinträge und 100 Synonymaufgaben. B2 ist in der aktuellen Testphase deutlich weiter geöffnet."
+      ],
+      [
+        "Was umfasst der 14-tägige Testzugang?",
+        "Nach der Registrierung erhältst du 14 Tage lang denselben Zugriff wie mit Premium und kannst alle Hauptbereiche prüfen."
+      ],
+      [
+        "Sind B2 und C1 im Preis enthalten?",
+        "Ja. Premium umfasst die aktuell verfügbaren Inhalte beider Niveaus."
+      ],
+      [
+        "Ist das eine offizielle Prüfungssimulation?",
+        "Nein. Lingroo ergänzt offizielle Modelltests, ersetzt sie aber nicht."
+      ],
+      [
+        "Gibt es bereits Sprechtraining?",
+        "Noch nicht als fertigen Bereich. Die Funktion befindet sich in Entwicklung."
+      ]
+    ],
+    "footer": "Unabhängiges B2/C1-Training für Deutsch.",
+    "legal": [
+      "Impressum",
+      "Datenschutz",
+      "AGB",
+      "Widerruf",
+      "Kündigung"
+    ]
+  },
+  "pl": {
+    "path": "pl/cennik",
+    "home": "/pl/",
+    "title": "Lingroo cennik: niemiecki B2/C1 | 4,99 € miesięcznie",
+    "desc": "Lingroo kosztuje 4,99 € miesięcznie. Porównaj bezpłatny dostęp, 14 dni pełnego testu i Premium do nauki niemieckiego B2/C1.",
+    "nav_home": "Start",
+    "nav_scope": "Zakres materiałów",
+    "nav_price": "Cennik",
+    "open": "Otwórz aplikację",
+    "kicker": "Niemiecki B2/C1 · wersja testowa",
+    "h1": "Jedna cena. Jasny dostęp do treningu B2 i C1.",
+    "intro": "Po rejestracji przez 14 dni korzystasz z pełnej wersji Lingroo. Później Premium kosztuje 4,99 € miesięcznie. Możesz zrezygnować przed kolejnym okresem rozliczeniowym.",
+    "trial": "Testuj pełną wersję przez 14 dni",
+    "compare": "Porównaj rodzaje dostępu",
+    "phase": "Cena w okresie testowym",
+    "month": "miesiąc",
+    "price_note": "Rozliczenie miesięczne. Bez rocznej umowy.",
+    "checks": [
+      "pełny dostęp testowy po rejestracji",
+      "materiały B2 i C1, zapis postępów i powtórki",
+      "pisanie ze wskazówkami do poprawy i tryb egzaminu"
+    ],
+    "what_h": "Co otrzymujesz w Lingroo",
+    "what_p": "Konkretny zakres materiałów zamiast ogólnych obietnic.",
+    "features": [
+      [
+        "Słownictwo w kontekście",
+        "Słownictwo B2 i C1 z niemieckimi przykładami, połączeniami wyrazowymi oraz pomocą po polsku, ukraińsku, rosyjsku i angielsku."
+      ],
+      [
+        "Czytanie i słuchanie",
+        "Autorskie teksty i nagrania z pytaniami o główną myśl, szczegóły, wnioski i stanowisko autora."
+      ],
+      [
+        "Luki i struktury językowe",
+        "Rekcja, przyimki, spójniki, spójność tekstu i dłuższe teksty z lukami. W przygotowaniu do telc spotkasz też nazwę „Sprachbausteine”."
+      ],
+      [
+        "Pisanie ze wskazówkami",
+        "15 tematów na poziomie B2 i 15 na C1 oraz 14 krótkich ćwiczeń z argumentacji, łączenia zdań i stylu formalnego."
+      ],
+      [
+        "Tryb egzaminu",
+        "Trzy autorskie zestawy treningowe na B2 i trzy na C1. Nie są to oficjalne arkusze egzaminacyjne."
+      ],
+      [
+        "Postępy i powtórki",
+        "Wyniki są zapisywane, błędy można powtarzać, a kolejny obszar nauki wynika z wcześniejszych odpowiedzi."
+      ]
+    ],
+    "inventory_h": "Co obecnie znajduje się w aplikacji",
+    "inventory_p": "Liczby pochodzą z aktualnych plików używanych przez aplikację, a nie z szacunków marketingowych.",
+    "labels": [
+      "haseł słownikowych",
+      "zadań z synonimami",
+      "zadań z lukami i strukturami",
+      "tekstów do czytania",
+      "materiałów do słuchania",
+      "zestawów w trybie egzaminu",
+      "tematów do pisania",
+      "krótkich ćwiczeń pisemnych"
+    ],
+    "writing_h": "Pisanie: 30 tematów i 14 krótkich ćwiczeń",
+    "writing_p": "Tematy obejmują m.in. pracę zdalną, integrację i zrównoważoną konsumpcję na B2 oraz demografię, globalizację i sztuczną inteligencję na C1.",
+    "simple": "B2 / prościej",
+    "formal": "C1 / bardziej formalnie",
+    "simple_ex": "Viele Leute denken, dass das wichtig ist.",
+    "formal_ex": "Zahlreiche Menschen sind der Auffassung, dass dies von großer Bedeutung ist.",
+    "compare_h": "Dostęp bezpłatny, konto testowe i Premium",
+    "cols": [
+      "Obszar",
+      "Bez opłat",
+      "14 dni pełnego testu",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "Słuchanie C1",
+        "5 materiałów",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Czytanie C1",
+        "5 tekstów",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Pisanie C1",
+        "1 temat",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Słownictwo C1",
+        "200 haseł",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Synonimy C1",
+        "100 zadań",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Trening B2",
+        "w wersji testowej w dużej części otwarty",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Tryb egzaminu C1",
+        "zablokowany",
+        "pełny dostęp",
+        "pełny dostęp"
+      ],
+      [
+        "Postępy i powtórki",
+        "ograniczone",
+        "pełny dostęp",
+        "pełny dostęp"
+      ]
+    ],
+    "b2_note": "Dlaczego B2 jest teraz szerzej dostępne? W obecnej wersji testowej sprawdzamy, z których materiałów użytkownicy naprawdę korzystają. Dlatego duża część treningu B2 nie ma ograniczeń stosowanych na C1. Ten model może zostać później zmieniony.",
+    "limits_h": "Czego Lingroo nie obiecuje",
+    "limits": "Lingroo jest niezależnym narzędziem do nauki. Sześć zestawów treningowych to materiały autorskie, a nie oficjalne arkusze telc, Goethe-Institut ani TestDaF. Moduł treningu mówienia jest jeszcze w budowie.",
+    "faq_h": "Najczęstsze pytania",
+    "faqs": [
+      [
+        "Co mogę sprawdzić bez opłat?",
+        "Możesz poznać Lingroo i skorzystać z ograniczonej części treści C1: 5 materiałów do słuchania, 5 tekstów do czytania, 1 tematu do pisania, 200 haseł C1 i 100 zadań z synonimami. B2 jest w obecnej wersji testowej otwarte znacznie szerzej."
+      ],
+      [
+        "Co obejmuje 14-dniowe konto testowe?",
+        "Po rejestracji przez 14 dni korzystasz z takiego samego zakresu jak w Premium i możesz sprawdzić wszystkie główne moduły."
+      ],
+      [
+        "Czy cena obejmuje B2 i C1?",
+        "Tak. Premium obejmuje aktualnie dostępne materiały z obu poziomów."
+      ],
+      [
+        "Czy to oficjalna symulacja egzaminu?",
+        "Nie. Lingroo uzupełnia oficjalne testy modelowe, ale ich nie zastępuje."
+      ],
+      [
+        "Czy jest już trening mówienia?",
+        "Jeszcze nie jako gotowy moduł. Funkcja jest w budowie."
+      ]
+    ],
+    "footer": "Niezależny trening niemieckiego B2/C1.",
+    "legal": [
+      "Dane firmy",
+      "Polityka prywatności",
+      "Warunki korzystania",
+      "Prawo odstąpienia",
+      "Rezygnacja"
+    ]
+  },
+  "en": {
+    "path": "en/pricing",
+    "home": "/en/",
+    "title": "Lingroo pricing: German B2/C1 practice | €4.99/month",
+    "desc": "Lingroo costs €4.99 per month. Compare free access, a 14-day full trial and Premium for German B2/C1 practice.",
+    "nav_home": "Home",
+    "nav_scope": "What is included",
+    "nav_price": "Pricing",
+    "open": "Open the app",
+    "kicker": "German B2/C1 · test phase",
+    "h1": "One price. Clear access to B2 and C1 practice.",
+    "intro": "After registration, you can use the full version of Lingroo for 14 days. Premium then costs €4.99 per month and can be cancelled monthly.",
+    "trial": "Try the full version for 14 days",
+    "compare": "Compare access",
+    "phase": "Test-phase price",
+    "month": "month",
+    "price_note": "Monthly billing. No annual commitment.",
+    "checks": [
+      "full trial access after registration",
+      "B2 and C1 content, saved progress and review",
+      "writing guidance and exam mode"
+    ],
+    "what_h": "What you get with Lingroo",
+    "what_p": "A specific content library, not a vague feature list.",
+    "features": [
+      [
+        "Vocabulary in context",
+        "B2 and C1 vocabulary with German examples, collocations and support in Polish, Ukrainian, Russian and English."
+      ],
+      [
+        "Reading and listening",
+        "Original texts and recordings with questions on main ideas, details, inferences and the author’s position."
+      ],
+      [
+        "Gaps and language structures",
+        "Verb patterns, prepositions, connectors, text cohesion and longer gap texts."
+      ],
+      [
+        "Writing guidance",
+        "15 B2 topics, 15 C1 topics and 14 short exercises for argumentation, linking ideas and formal style."
+      ],
+      [
+        "Exam mode",
+        "Three original B2 training sets and three C1 sets. They are not official examination papers."
+      ],
+      [
+        "Progress and review",
+        "Results are saved, errors can be repeated, and the next focus is based on previous answers."
+      ]
+    ],
+    "inventory_h": "What is currently included",
+    "inventory_p": "The figures come from the content files currently used by the application, not from marketing estimates.",
+    "labels": [
+      "vocabulary entries",
+      "synonym tasks",
+      "gap and structure tasks",
+      "reading texts",
+      "listening materials",
+      "exam-mode training sets",
+      "writing topics",
+      "short writing exercises"
+    ],
+    "writing_h": "Writing: 30 topics and 14 short exercises",
+    "writing_p": "Topics range from remote work, integration and sustainable consumption at B2 to demographic change, globalisation and artificial intelligence at C1.",
+    "simple": "B2 / simpler",
+    "formal": "C1 / more formal",
+    "simple_ex": "Viele Leute denken, dass das wichtig ist.",
+    "formal_ex": "Zahlreiche Menschen sind der Auffassung, dass dies von großer Bedeutung ist.",
+    "compare_h": "Free access, full trial and Premium",
+    "cols": [
+      "Area",
+      "Free",
+      "14-day full trial",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "C1 listening",
+        "5 materials",
+        "full access",
+        "full access"
+      ],
+      [
+        "C1 reading",
+        "5 texts",
+        "full access",
+        "full access"
+      ],
+      [
+        "C1 writing",
+        "1 topic",
+        "full access",
+        "full access"
+      ],
+      [
+        "C1 vocabulary",
+        "200 entries",
+        "full access",
+        "full access"
+      ],
+      [
+        "C1 synonyms",
+        "100 tasks",
+        "full access",
+        "full access"
+      ],
+      [
+        "B2 practice",
+        "largely open during the test phase",
+        "full access",
+        "full access"
+      ],
+      [
+        "C1 exam mode",
+        "locked",
+        "full access",
+        "full access"
+      ],
+      [
+        "Progress and review",
+        "limited",
+        "full access",
+        "full access"
+      ]
+    ],
+    "b2_note": "Why is B2 currently more open? During the test phase we are learning which materials people actually use. A broad part of B2 practice therefore remains available without the C1 limits. This model may change later.",
+    "limits_h": "What Lingroo does not claim",
+    "limits": "Lingroo is an independent learning tool. The six training sets are original materials, not official papers from telc, Goethe-Institut or TestDaF. Speaking practice is still in development.",
+    "faq_h": "Frequently asked questions",
+    "faqs": [
+      [
+        "What can I use for free?",
+        "You can explore Lingroo and use a limited part of the C1 library: 5 listening materials, 5 reading texts, 1 writing topic, 200 C1 vocabulary entries and 100 synonym tasks. B2 is much more open during the current test phase."
+      ],
+      [
+        "What does the 14-day full trial include?",
+        "After registration, you receive the same access as Premium for 14 days and can test all main areas."
+      ],
+      [
+        "Does the price include B2 and C1?",
+        "Yes. Premium includes the currently available content at both levels."
+      ],
+      [
+        "Is this an official exam simulation?",
+        "No. Lingroo complements official model tests but does not replace them."
+      ],
+      [
+        "Is speaking practice available?",
+        "Not yet as a finished module. It is in development."
+      ]
+    ],
+    "footer": "Independent German B2/C1 practice.",
+    "legal": [
+      "Legal notice",
+      "Privacy policy",
+      "Terms",
+      "Right of withdrawal",
+      "Cancel subscription"
+    ]
+  },
+  "ua": {
+    "path": "ua/tsiny",
+    "home": "/ua/",
+    "title": "Ціни Lingroo: німецька B2/C1 | 4,99 € на місяць",
+    "desc": "Lingroo коштує 4,99 € на місяць. Порівняйте безкоштовний доступ, 14 днів повного тестування та Premium для німецької B2/C1.",
+    "nav_home": "Головна",
+    "nav_scope": "Що входить",
+    "nav_price": "Ціни",
+    "open": "Відкрити застосунок",
+    "kicker": "Німецька B2/C1 · тестова версія",
+    "h1": "Одна ціна. Зрозумілий доступ до тренування B2 і C1.",
+    "intro": "Після реєстрації ви отримуєте 14 днів повного доступу до Lingroo. Далі Premium коштує 4,99 € на місяць. Підписку можна скасувати щомісяця.",
+    "trial": "Спробувати повну версію 14 днів",
+    "compare": "Порівняти доступ",
+    "phase": "Ціна під час тестування",
+    "month": "місяць",
+    "price_note": "Щомісячна оплата. Без річного зобов’язання.",
+    "checks": [
+      "повний тестовий доступ після реєстрації",
+      "матеріали B2 і C1, збереження прогресу та повторення",
+      "письмо з порадами й режим іспиту"
+    ],
+    "what_h": "Що ви отримуєте в Lingroo",
+    "what_p": "Конкретний обсяг матеріалів замість загальних обіцянок.",
+    "features": [
+      [
+        "Лексика в контексті",
+        "Лексика B2 і C1 з німецькими прикладами, словосполученнями та підказками українською, польською, російською й англійською."
+      ],
+      [
+        "Читання й аудіювання",
+        "Авторські тексти та записи із запитаннями про головну думку, деталі, висновки й позицію автора."
+      ],
+      [
+        "Пропуски та мовні структури",
+        "Керування дієслів, прийменники, сполучники, зв’язність тексту й довші тексти з пропусками."
+      ],
+      [
+        "Письмо з порадами",
+        "15 тем B2, 15 тем C1 і 14 коротких вправ з аргументації, зв’язування думок та формального стилю."
+      ],
+      [
+        "Режим іспиту",
+        "Три авторські тренувальні набори B2 і три C1. Це не офіційні екзаменаційні матеріали."
+      ],
+      [
+        "Прогрес і повторення",
+        "Результати зберігаються, помилки можна повторювати, а наступний напрям тренування визначається за попередніми відповідями."
+      ]
+    ],
+    "inventory_h": "Що зараз містить застосунок",
+    "inventory_p": "Цифри взято з актуальних файлів, які використовує застосунок, а не з маркетингових оцінок.",
+    "labels": [
+      "словникових одиниць",
+      "завдань на синоніми",
+      "завдань із пропусками та структурами",
+      "текстів для читання",
+      "матеріалів для аудіювання",
+      "тренувальних наборів у режимі іспиту",
+      "тем для письма",
+      "коротких письмових вправ"
+    ],
+    "writing_h": "Письмо: 30 тем і 14 коротких вправ",
+    "writing_p": "Серед тем B2 — дистанційна робота, інтеграція та відповідальне споживання; на C1 — демографічні зміни, глобалізація й штучний інтелект.",
+    "simple": "B2 / простіше",
+    "formal": "C1 / формальніше",
+    "simple_ex": "Viele Leute denken, dass das wichtig ist.",
+    "formal_ex": "Zahlreiche Menschen sind der Auffassung, dass dies von großer Bedeutung ist.",
+    "compare_h": "Безкоштовний доступ, повний тест і Premium",
+    "cols": [
+      "Розділ",
+      "Безкоштовно",
+      "14 днів повного тесту",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "Аудіювання C1",
+        "5 матеріалів",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Читання C1",
+        "5 текстів",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Письмо C1",
+        "1 тема",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Лексика C1",
+        "200 одиниць",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Синоніми C1",
+        "100 завдань",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Тренування B2",
+        "у тестовій версії переважно відкрите",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Режим іспиту C1",
+        "заблоковано",
+        "повний доступ",
+        "повний доступ"
+      ],
+      [
+        "Прогрес і повторення",
+        "обмежено",
+        "повний доступ",
+        "повний доступ"
+      ]
+    ],
+    "b2_note": "Чому B2 зараз доступний ширше? Під час тестування ми перевіряємо, які матеріали справді використовують учні. Тому значна частина тренування B2 доступна без обмежень C1. Пізніше модель може змінитися.",
+    "limits_h": "Чого Lingroo не обіцяє",
+    "limits": "Lingroo — незалежний навчальний інструмент. Шість тренувальних наборів є авторськими матеріалами, а не офіційними завданнями telc, Goethe-Institut чи TestDaF. Тренування говоріння ще розробляється.",
+    "faq_h": "Поширені запитання",
+    "faqs": [
+      [
+        "Що доступно безкоштовно?",
+        "Можна ознайомитися з Lingroo та скористатися обмеженою частиною C1: 5 матеріалами для аудіювання, 5 текстами для читання, 1 темою для письма, 200 одиницями лексики C1 і 100 завданнями на синоніми. B2 у тестовій версії відкритий значно ширше."
+      ],
+      [
+        "Що входить у 14-денний повний тест?",
+        "Після реєстрації на 14 днів ви отримуєте такий самий доступ, як у Premium, і можете перевірити всі основні розділи."
+      ],
+      [
+        "Ціна охоплює B2 і C1?",
+        "Так. Premium охоплює актуальні матеріали обох рівнів."
+      ],
+      [
+        "Це офіційна симуляція іспиту?",
+        "Ні. Lingroo доповнює офіційні модельні тести, але не замінює їх."
+      ],
+      [
+        "Чи є тренування говоріння?",
+        "Ще не як готовий модуль. Функція розробляється."
+      ]
+    ],
+    "footer": "Незалежне тренування німецької B2/C1.",
+    "legal": [
+      "Відомості про компанію",
+      "Політика конфіденційності",
+      "Умови користування",
+      "Право на відмову",
+      "Скасувати підписку"
+    ]
+  },
+  "ru": {
+    "path": "ru/ceny",
+    "home": "/ru/",
+    "title": "Цены Lingroo: немецкий B2/C1 | 4,99 € в месяц",
+    "desc": "Lingroo стоит 4,99 € в месяц. Сравните бесплатный доступ, 14 дней полного тестирования и Premium для немецкого B2/C1.",
+    "nav_home": "Главная",
+    "nav_scope": "Что входит",
+    "nav_price": "Цены",
+    "open": "Открыть приложение",
+    "kicker": "Немецкий B2/C1 · тестовая версия",
+    "h1": "Одна цена. Понятный доступ к тренировке B2 и C1.",
+    "intro": "После регистрации вы получаете 14 дней полного доступа к Lingroo. Затем Premium стоит 4,99 € в месяц. Подписку можно отменять ежемесячно.",
+    "trial": "Попробовать полную версию 14 дней",
+    "compare": "Сравнить доступ",
+    "phase": "Цена во время тестирования",
+    "month": "месяц",
+    "price_note": "Ежемесячная оплата. Без годового обязательства.",
+    "checks": [
+      "полный тестовый доступ после регистрации",
+      "материалы B2 и C1, сохранение прогресса и повторение",
+      "письмо с рекомендациями и режим экзамена"
+    ],
+    "what_h": "Что вы получаете в Lingroo",
+    "what_p": "Конкретный объём материалов вместо общих обещаний.",
+    "features": [
+      [
+        "Лексика в контексте",
+        "Лексика B2 и C1 с немецкими примерами, словосочетаниями и подсказками на русском, польском, украинском и английском."
+      ],
+      [
+        "Чтение и аудирование",
+        "Авторские тексты и записи с вопросами о главной мысли, деталях, выводах и позиции автора."
+      ],
+      [
+        "Пропуски и языковые структуры",
+        "Управление глаголов, предлоги, союзы, связность текста и более длинные тексты с пропусками."
+      ],
+      [
+        "Письмо с рекомендациями",
+        "15 тем B2, 15 тем C1 и 14 коротких упражнений на аргументацию, связь идей и формальный стиль."
+      ],
+      [
+        "Режим экзамена",
+        "Три авторских тренировочных набора B2 и три C1. Это не официальные экзаменационные материалы."
+      ],
+      [
+        "Прогресс и повторение",
+        "Результаты сохраняются, ошибки можно повторять, а следующий фокус определяется по предыдущим ответам."
+      ]
+    ],
+    "inventory_h": "Что сейчас входит в приложение",
+    "inventory_p": "Цифры взяты из актуальных файлов приложения, а не из маркетинговых оценок.",
+    "labels": [
+      "словарных единиц",
+      "заданий на синонимы",
+      "заданий с пропусками и структурами",
+      "текстов для чтения",
+      "материалов для аудирования",
+      "тренировочных наборов в режиме экзамена",
+      "тем для письма",
+      "коротких письменных упражнений"
+    ],
+    "writing_h": "Письмо: 30 тем и 14 коротких упражнений",
+    "writing_p": "Темы B2 включают удалённую работу, интеграцию и ответственное потребление; C1 — демографические изменения, глобализацию и искусственный интеллект.",
+    "simple": "B2 / проще",
+    "formal": "C1 / формальнее",
+    "simple_ex": "Viele Leute denken, dass das wichtig ist.",
+    "formal_ex": "Zahlreiche Menschen sind der Auffassung, dass dies von großer Bedeutung ist.",
+    "compare_h": "Бесплатный доступ, полный тест и Premium",
+    "cols": [
+      "Раздел",
+      "Бесплатно",
+      "14 дней полного теста",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "Аудирование C1",
+        "5 материалов",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Чтение C1",
+        "5 текстов",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Письмо C1",
+        "1 тема",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Лексика C1",
+        "200 единиц",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Синонимы C1",
+        "100 заданий",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Тренировка B2",
+        "в тестовой версии в основном открыта",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Режим экзамена C1",
+        "заблокирован",
+        "полный доступ",
+        "полный доступ"
+      ],
+      [
+        "Прогресс и повторение",
+        "ограничены",
+        "полный доступ",
+        "полный доступ"
+      ]
+    ],
+    "b2_note": "Почему B2 сейчас открыт шире? Во время тестирования мы проверяем, какие материалы действительно используют учащиеся. Поэтому значительная часть тренировки B2 доступна без ограничений C1. Позже эта модель может измениться.",
+    "limits_h": "Чего Lingroo не обещает",
+    "limits": "Lingroo — независимый учебный инструмент. Шесть тренировочных наборов являются авторскими материалами, а не официальными заданиями telc, Goethe-Institut или TestDaF. Тренировка устной речи ещё разрабатывается.",
+    "faq_h": "Частые вопросы",
+    "faqs": [
+      [
+        "Что доступно бесплатно?",
+        "Можно познакомиться с Lingroo и использовать ограниченную часть C1: 5 материалов для аудирования, 5 текстов для чтения, 1 тему для письма, 200 единиц лексики C1 и 100 заданий на синонимы. B2 в тестовой версии открыт значительно шире."
+      ],
+      [
+        "Что входит в 14-дневный полный тест?",
+        "После регистрации на 14 дней вы получаете такой же доступ, как в Premium, и можете проверить все основные разделы."
+      ],
+      [
+        "Цена включает B2 и C1?",
+        "Да. Premium включает актуальные материалы обоих уровней."
+      ],
+      [
+        "Это официальная симуляция экзамена?",
+        "Нет. Lingroo дополняет официальные модельные тесты, но не заменяет их."
+      ],
+      [
+        "Есть ли тренировка устной речи?",
+        "Пока не как готовый модуль. Функция разрабатывается."
+      ]
+    ],
+    "footer": "Независимая тренировка немецкого B2/C1.",
+    "legal": [
+      "Сведения о компании",
+      "Политика конфиденциальности",
+      "Условия использования",
+      "Право на отказ",
+      "Отменить подписку"
+    ]
+  }
+}
